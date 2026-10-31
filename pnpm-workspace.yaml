@@ -2,5 +2,7 @@
 # electron 需要下载运行时，better-sqlite3 需要编译原生模块，esbuild 需要落二进制。
 allowBuilds:
   better-sqlite3: false
+  # ColDesk uses NSIS, so the optional Squirrel installer does not need its build script.
+  electron-winstaller: false
   electron: true
   esbuild: true
