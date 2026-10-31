@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@renderer/*": ["src/renderer/*"]
+    },
+    "outDir": "./out/types-web"
+  },
+  "include": [
+    "src/renderer/**/*",
+    "src/shared/**/*", "src/shared/locales/*.json",
+    "src/preload/**/*"
+  ],
+  /*
+   * 排除主进程的测试文件。
+   *
+   * 原因（明确记录，不静默掩盖）：这些测试里有若干"替身需要而故意放宽"的写法——
+   * 例如向只声明一个参数的替身函数多传一个参数、用 .ts 扩展名做动态 import、
+   * 未标注类型的回调参数等。它们在 tsx 下运行完全正常，
+   * 但会让类型检查报 50 余条噪音。
+   *
+   * 代价要说清楚：**主进程测试文件目前不受类型检查保护**。
+   * 生产代码（src/main 下非 __tests__ 的部分）是严格检查的，
+   * 而且那是之前"12 个类型错误长期无人发现"的重灾区，所以优先保证它。
+   * 想补齐测试文件的类型，需要单独一轮把上面的写法逐项收敛。
+   */
+  "exclude": [
+    "src/main/__tests__/**/*"
+  ]
+}

@@ -1,0 +1,6 @@
+# pnpm 11 起，允许执行安装脚本的依赖必须显式声明在这里。
+# electron 需要下载运行时，better-sqlite3 需要编译原生模块，esbuild 需要落二进制。
+allowBuilds:
+  better-sqlite3: false
+  electron: true
+  esbuild: true

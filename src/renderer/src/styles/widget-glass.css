@@ -1,0 +1,170 @@
+/* 鸿蒙光感试作：静止的曲面亮边、暖冷色散与胶囊工具栏。
+ * 仅作用于悬浮窗；backdrop-filter 只能模糊页面内背景，不能折射桌面。
+ * 不采集桌面、不使用持续动画，文字区保持低色差。
+ */
+.widget-root { padding: 8px; }
+
+.widget-shell--harmony {
+  --widget-ink: #202e40;
+  --widget-muted: #516176;
+  --widget-subtle: #617184;
+  --widget-surface: rgba(255, 255, 255, .24);
+  --widget-line: rgba(255, 255, 255, .58);
+  --text-primary: var(--widget-ink);
+  --text-secondary: var(--widget-muted);
+  --text-tertiary: var(--widget-subtle);
+  --radius-widget: 34px;
+  max-height: 604px;
+  color: var(--widget-ink);
+  border: 1px solid rgba(255, 255, 255, .74);
+  background: linear-gradient(156deg, rgba(255, 255, 255, .14), transparent 38%, rgba(197, 229, 253, .08)), var(--glass-tint);
+  box-shadow: 0 4px 7px rgba(28, 53, 81, .09), inset 0 1px 1px rgba(255, 255, 255, .95), inset 0 -1px 2px rgba(75, 121, 151, .12);
+}
+
+/* 亮弧有厚度，颜色集中在四周，中心留给内容。 */
+.widget-shell--harmony::before {
+  z-index: 0;
+  mix-blend-mode: normal;
+  background:
+    radial-gradient(ellipse 90% 22% at 26% -3%, rgba(255, 238, 181, calc(.48 * var(--glass-glow-strength))), transparent 72%),
+    radial-gradient(ellipse 40% 65% at -15% 46%, rgba(176, 234, 255, calc(.25 * var(--glass-glow-strength))), transparent 74%),
+    radial-gradient(ellipse 50% 50% at 115% 84%, rgba(213, 204, 250, calc(.25 * var(--glass-glow-strength))), transparent 72%),
+    radial-gradient(ellipse 100% 18% at 55% 107%, rgba(131, 219, 252, calc(.35 * var(--glass-glow-strength))), transparent 72%);
+  box-shadow: inset 0 0 12px rgba(255, 255, 255, calc(.38 * var(--glass-glow-strength)));
+}
+.widget-shell--harmony::after {
+  z-index: 3;
+  padding: 1.5px;
+  mix-blend-mode: normal;
+  background: conic-gradient(from 220deg, rgba(148, 215, 244, .28), #fff 16%, #fff6 27%, rgba(244, 224, 173, .65) 40%, #fff2 54%, rgba(180, 210, 249, .5) 66%, #fff 83%, rgba(148, 215, 244, .28));
+  opacity: min(1, calc(.7 * var(--glass-caustic-strength)));
+}
+.widget-shell--harmony .glass-light {
+  z-index: 0;
+  mix-blend-mode: normal;
+  background:
+    radial-gradient(ellipse 130% 60% at 25% -30%, rgba(255, 255, 255, calc(.55 * var(--glass-frost-strength))), transparent 70%),
+    radial-gradient(ellipse 100% 45% at 80% 130%, rgba(180, 225, 250, calc(.13 * var(--glass-frost-strength))), transparent 70%);
+}
+.widget-shell--harmony > .widget-header,
+.widget-shell--harmony > .widget-body,
+.widget-shell--harmony > .widget-compose { position: relative; z-index: 1; }
+
+.widget-shell--harmony .widget-header {
+  padding: 17px 18px 13px;
+  flex: 0 0 auto;
+}
+.widget-shell--harmony .widget-logo {
+  width: 34px; height: 34px; border-radius: 0;
+  background: transparent; border: 0; box-shadow: none;
+  object-fit: contain; flex: 0 0 auto;
+}
+.widget-shell--harmony .widget-header .row { gap: 9px; }
+.widget-shell--harmony .widget-header > .no-drag { gap: 3px; }
+.widget-shell--harmony .icon-btn { width: 27px; height: 27px; border-radius: 50%; }
+.widget-shell--harmony .layer-btn:not(.muted) { color: #3165cd; background: #e0ecff88; }
+.widget-shell--harmony .layer-btn.muted { opacity: .75; }
+.widget-shell--harmony .collapse-btn.is-collapsed svg { transform: rotate(180deg); }
+.widget-shell--harmony .widget-body {
+  min-height: 0;
+  flex: 1 1 auto;
+  gap: 11px;
+  padding: 0 17px 3px;
+  max-height: none;
+  text-shadow: none;
+  scrollbar-width: thin;
+}
+.widget-shell--harmony .section-head { margin-bottom: 5px; }
+.widget-shell--harmony .section-label { font-size: 11px; letter-spacing: .035em; }
+.widget-shell--harmony .t-caption { font-size: 11px; line-height: 1.5; letter-spacing: 0; }
+.widget-shell--harmony .t-body { font-size: 13px; line-height: 1.5; }
+.widget-shell--harmony .t-title { font-weight: 650; }
+.widget-shell--harmony .moment-card {
+  padding: 10px 12px;
+  gap: 5px;
+  border-radius: 20px;
+  border-color: rgba(255, 255, 255, .65);
+  background: var(--widget-surface);
+  box-shadow: inset 0 1px 0 #ffffff60;
+}
+.widget-shell--harmony .moment-card.active { background: rgba(239, 247, 255, .42); }
+.widget-shell--harmony .moment-title { font-size: 16px; }
+.widget-shell--harmony .item-list { gap: 2px; }
+.widget-shell--harmony .next-row,
+.widget-shell--harmony .task-row { padding: 6px 2px; gap: 9px; }
+.widget-shell--harmony .next-row .row-between,
+.widget-shell--harmony .task-row .row-between { align-items: baseline; gap: 7px; }
+.widget-shell--harmony .task-row .grow > .row:last-child { flex-wrap: wrap; gap: 1px 7px; }
+.widget-shell--harmony .task-row .grow { gap: 3px; }
+.widget-shell--harmony .next-row .grow { gap: 3px; }
+.widget-shell--harmony .check { width: 18px; height: 18px; margin-top: 2px; background: #ffffff36; }
+.widget-shell--harmony .widget-compose { flex: 0 0 auto; padding: 9px 17px 16px; }
+.widget-shell--harmony .quick-add { border-top: 1px solid #7e9ab11f; padding-top: 11px; gap: 8px; }
+.widget-shell--harmony .quick-input { height: 33px; border-radius: 17px; background: #ffffff45; border-color: #ffffff8f; }
+.widget-shell--harmony .primary-btn { height: 33px; border-radius: 17px; background: #4b77dc; box-shadow: inset 0 1px 0 #ffffff38; }
+.widget-shell--harmony .quick-add-meta { flex-wrap: wrap; gap: 7px; }
+.widget-shell--harmony .urgency-btn { width: 21px; height: 21px; background: #ffffff40; }
+.widget-shell--harmony .chip { background: #ffffff40; }
+.widget-shell--harmony .chip.active { background: #dce9fcaa; color: #2d5fb8; }
+.widget-shell--harmony .widget-foot { border: 0; padding: 0; margin-top: 12px; justify-content: center; }
+
+/* 胶囊独立成一块厚玻璃，暖色亮顶 + 冰蓝底沿是参考图的主要特征。 */
+.widget-shell--harmony .optical-dock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4px;
+  border-radius: 24px;
+  border: 1px solid #ffffffa3;
+  background:
+    radial-gradient(ellipse 95% 80% at 35% -45%, rgba(255, 226, 157, calc(.5 * var(--glass-glow-strength))), transparent 85%),
+    radial-gradient(ellipse 80% 100% at 65% 140%, rgba(142, 219, 249, calc(.5 * var(--glass-glow-strength))), transparent 86%),
+    linear-gradient(180deg, #ffffff45, #ffffff14);
+  box-shadow: inset 0 1px 2px #ffffffb3, inset 0 -1px 2px #6da3c624, 0 3px 7px #344e680c;
+}
+.widget-shell--harmony .optical-dock .pill-btn {
+  flex: 1; justify-content: center; height: 30px;
+  padding: 0 7px; gap: 6px;
+  font-size: 11px; font-weight: 550;
+  border: 0; background: transparent;
+  color: var(--widget-ink);
+  white-space: nowrap;
+  transform: none;
+}
+.widget-shell--harmony .optical-dock .pill-btn + .pill-btn { border-left: 1px solid #7e9ab11f; border-radius: 0; }
+.widget-shell--harmony .optical-dock .pill-btn:hover { background: #ffffff36; border-radius: 20px; }
+.widget-shell--harmony button:focus-visible { outline: 2px solid #366ad1; outline-offset: 2px; }
+.widget-shell--harmony.is-collapsed .widget-header { padding-bottom: 17px; }
+/* 保留事件提示，但用静态亮边，防止透明窗口持续重绘。 */
+.widget-shell--harmony.ripple::before,
+.widget-shell--harmony.ripple::after { animation: none; }
+.widget-shell--harmony.ripple::after { background: #b5dcff; }
+
+@media (prefers-color-scheme: dark) {
+  .widget-shell--harmony {
+    --widget-ink: #edf5ff; --widget-muted: #c7d5e8; --widget-subtle: #aebdd2;
+    --widget-surface: rgba(133, 169, 202, .1);
+    border-color: #d7eaff4d;
+    box-shadow: 0 4px 7px #00000022, inset 0 1px 1px #d7eaff4d;
+  }
+  .widget-shell--harmony .moment-card { border-color: #d7eaff26; box-shadow: none; }
+  .widget-shell--harmony .moment-card.active { background: #608fc022; }
+  .widget-shell--harmony .quick-input,
+  .widget-shell--harmony .urgency-btn,
+  .widget-shell--harmony .chip { background: #aac6e315; border-color: #d7eaff33; }
+  .widget-shell--harmony .chip.active { background: #648ccc55; color: #e0eeff; }
+  .widget-shell--harmony .optical-dock { border-color: #d7eaff45; }
+  .widget-shell--harmony .layer-btn:not(.muted) { background: #729ddd33; color: #bbd9ff; }
+}
+:root[data-contrast='high'] .widget-shell--harmony { background: #fff; --widget-ink: #172335; --widget-subtle: #425269; }
+:root[data-contrast='high'] .widget-shell--harmony::before,
+:root[data-contrast='high'] .widget-shell--harmony::after,
+:root[data-contrast='high'] .widget-shell--harmony .glass-light { display: none; }
+:root[data-contrast='high'] .widget-shell--harmony .moment-card,
+:root[data-contrast='high'] .widget-shell--harmony .optical-dock { background: #f0f3f8; border-color: #cad4e2; }
+@media (prefers-color-scheme: dark) {
+  :root[data-contrast='high'] .widget-shell--harmony { background: #1b2432; --widget-ink: #f1f6ff; --widget-subtle: #c2d2e8; }
+  :root[data-contrast='high'] .widget-shell--harmony .moment-card,
+  :root[data-contrast='high'] .widget-shell--harmony .optical-dock { background: #263349; border-color: #536783; }
+}

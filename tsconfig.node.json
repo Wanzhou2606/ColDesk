@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2023"],
+    "strict": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["src/shared/*"]
+    },
+    "outDir": "./out/types-node"
+  },
+  "include": [
+    "electron.vite.config.ts",
+    "scripts/ui-language-plugin.ts",
+    "src/main/**/*",
+    "src/preload/**/*",
+    "src/shared/**/*", "src/shared/locales/*.json"
+  ],
+  /*
+   * 排除主进程的测试文件：它们有若干"替身需要而故意放宽"的写法
+   * （多传参数、.ts 扩展名动态 import、未标注类型的回调等），
+   * 在 tsx 下运行正常，但会造成 50 余条类型噪音。
+   *
+   * 代价必须说清楚：**主进程测试文件目前不受类型检查保护**。
+   * 而 src/main 下的生产代码是严格检查的——那是重灾区：
+   * 这里曾经积压 12 个类型错误长期无人发现（因为 @types/node 没装、
+   * 且 typecheck 脚本第一段失败就短路了），其中一个
+   * （`win.moveBottom()`，该方法只在 macOS 存在）在 Windows 上会直接抛异常。
+   * 所以优先保证生产代码被检查，测试文件的类型留待单独一轮收敛。
+   */
+  "exclude": [
+    "src/main/__tests__/**/*"
+  ]
+}

@@ -1,0 +1,430 @@
+/* ============================================================
+   ColDesk 液态玻璃设计令牌（设计文档 4.1）
+   悬浮窗依赖系统 acrylic 提供桌面模糊，因此根节点保持完全透明。
+   玻璃质感由四层叠加表达：
+     ① 薄纱底 + 背景模糊（backdrop-filter）
+     ② 边缘折射环（conic-gradient 模拟棱镜色散与受光变化）
+     ③ 顶部镜面高光 + 斜向流光（模拟光线在表面掠过的弯折）
+     ④ 内阴影描边（inset 高光/暗边，撑出厚度）
+   限制说明：backdrop-filter 在 Chromium 下不接受 SVG filter 的 url()，
+   真正基于位移贴图的折射无法用于窗口背景，这里用分层渐变逼近观感。
+   ============================================================ */
+
+:root {
+  /*
+   * 透明度基准：0.45(较透) ~ 1.00(完全不透明)，可在设置里调。
+   * 默认 0.62：这个值是权衡后的结果——再透会出现"背后的字透过来看不清自己内容"，
+   * 再实就失去玻璃感。用户反馈过 0.30 太透，所以下限也抬到 0.45。
+   */
+  --glass-tint-alpha: 0.62;
+  --glass-tint: rgba(255, 255, 255, var(--glass-tint-alpha));
+  --glass-tint-strong: rgba(255, 255, 255, 0.74);
+  --glass-tint-soft: rgba(255, 255, 255, 0.46);
+  --glass-stroke: rgba(255, 255, 255, 0.6);
+  --glass-inner-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  /*
+   * 阴影参数调小过：
+   * 之前是 `0 18px 40px rgba(...,0.24)`，模糊半径 40px 会向外扩散 20~30px，
+   * 在深色壁纸上看起来像卡片外面套了一个**方形**的影子——
+   * 因为阴影是按窗口矩形铺的，而卡片是圆角，超出的部分就露成了方角。
+   * 现在只保留贴近卡片的一圈软阴影，方角的痕迹就看不出来了。
+   */
+  --glass-shadow: 0 6px 18px rgba(15, 20, 35, 0.16), 0 1px 3px rgba(15, 20, 35, 0.1);
+  /*
+   * 那圈"外圈光晕"（透明中心 + 外圈微亮）直接写在下方的 .glass::before 里，
+   * 光效参数集中在下方，便于样式维护。
+   */
+  /*
+   * 磨砂感来源：
+   *  - blur 让页面内的层次互相柔化（对桌面壁纸无效，见下方注释）
+   *  - brightness(1.06) 提亮，让半透明层不发灰
+   *  - saturate 提高色彩饱和度，避免透出来的颜色发脏
+   */
+  --glass-blur: blur(26px) saturate(160%) brightness(1.06);
+
+  /*
+   * 三层静态光效的固定系数；外观设置只调不透明度。
+   */
+  --glass-glow-strength: 1;
+  --glass-frost-strength: 1;
+  --glass-caustic-strength: 1;
+  /* 折射带宽度：约 1px 的锐利亮弧 + 少量过渡，模拟曲面屏边缘 */
+  --glass-edge-band: 1px;
+  /*
+   * 磨砂质感：用多层柔和径向渐变制造"厚玻璃内部的漫射光"，
+   * 刻意不使用噪点纹理——噪点会带来粗糙感，而这里要的是细腻的磨砂。
+   */
+  --glass-frost:
+    radial-gradient(120% 80% at 18% 0%, rgba(255, 255, 255, calc(0.34 * var(--glass-frost-strength))), transparent 58%),
+    radial-gradient(100% 70% at 100% 10%, rgba(226, 240, 255, calc(0.22 * var(--glass-frost-strength))), transparent 60%),
+    radial-gradient(120% 90% at 50% 118%, rgba(246, 232, 255, calc(0.18 * var(--glass-frost-strength))), transparent 62%);
+  /*
+   * 边缘受光：在外圈形成一圈柔和渐亮，模拟曲面屏边缘那道亮弧。
+   * 与 --glass-frost 叠加使用，一个负责"内部漫射"，一个负责"边缘弯折"。
+   */
+  --glass-caustic:
+    radial-gradient(
+      140% 120% at 50% 50%,
+      transparent 60%,
+      rgba(255, 255, 255, calc(0.2 * var(--glass-caustic-strength))) 82%,
+      rgba(255, 255, 255, calc(0.5 * var(--glass-caustic-strength))) 100%
+    ),
+    linear-gradient(160deg, rgba(215, 235, 255, calc(0.3 * var(--glass-caustic-strength))) 0%, transparent 24%),
+    linear-gradient(340deg, rgba(255, 210, 248, calc(0.2 * var(--glass-caustic-strength))) 0%, transparent 22%);
+
+  --text-primary: #12161f;
+  --text-secondary: #5a6272;
+  --text-tertiary: #8a919f;
+  --accent: #4f7cff;
+  --accent-soft: rgba(79, 124, 255, 0.14);
+  --danger: #e5484d;
+  --danger-soft: rgba(229, 72, 77, 0.14);
+  --warn: #f76b15;
+  --teal: #12a594;
+  --violet: #8b7bd8;
+
+  /* 圆角：整体偏大，观感更圆润（用户反馈"再圆润一点"） */
+  --radius-widget: 28px;
+  --radius-card: 18px;
+  --radius-inner: 14px;
+  --radius-pill: 999px;
+
+  --font-ui: 'Segoe UI Variable', 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', system-ui, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --glass-tint: rgba(28, 30, 36, var(--glass-tint-alpha));
+    --glass-tint-strong: rgba(28, 30, 36, 0.7);
+    --glass-tint-soft: rgba(28, 30, 36, 0.44);
+    --glass-stroke: rgba(255, 255, 255, 0.14);
+    --glass-inner-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    --glass-shadow: 0 18px 40px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.32);
+    --glass-frost:
+      radial-gradient(120% 80% at 18% 0%, rgba(255, 255, 255, 0.14), transparent 58%),
+      radial-gradient(100% 70% at 100% 10%, rgba(140, 190, 255, 0.12), transparent 60%),
+      radial-gradient(120% 90% at 50% 118%, rgba(220, 160, 255, 0.1), transparent 62%);
+    --glass-caustic:
+      radial-gradient(
+        140% 120% at 50% 50%,
+        transparent 60%,
+        rgba(255, 255, 255, calc(0.16 * var(--glass-caustic-strength))) 82%,
+        rgba(255, 255, 255, calc(0.4 * var(--glass-caustic-strength))) 100%
+      ),
+      linear-gradient(160deg, rgba(160, 200, 255, calc(0.24 * var(--glass-caustic-strength))) 0%, transparent 24%),
+      linear-gradient(340deg, rgba(230, 170, 255, calc(0.18 * var(--glass-caustic-strength))) 0%, transparent 22%);
+    --text-primary: #f2f4f8;
+    --text-secondary: #b3b9c6;
+    --text-tertiary: #969dab;
+    --accent-soft: rgba(79, 124, 255, 0.24);
+    --danger-soft: rgba(229, 72, 77, 0.24);
+  }
+}
+
+/* 高对比模式：关闭模糊与半透明，牺牲观感换可读性 */
+:root[data-contrast='high'] {
+  --glass-tint: #ffffff;
+  --glass-tint-strong: #ffffff;
+  --glass-tint-soft: #f4f5f7;
+  --glass-stroke: rgba(0, 0, 0, 0.18);
+  --glass-blur: none;
+  --glass-shadow: 0 6px 18px rgba(15, 20, 35, 0.22);
+  /* 高对比模式下三层光效全部关掉，优先保证看清内容 */
+  --glass-glow-strength: 0;
+  --glass-frost-strength: 0;
+  --glass-caustic-strength: 0;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-contrast='high'] {
+    --glass-tint: #1b1e24;
+    --glass-tint-strong: #22262e;
+    --glass-tint-soft: #161a20;
+    --glass-stroke: rgba(255, 255, 255, 0.22);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: transparent;
+  font-family: var(--font-ui);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 悬浮窗与弹窗都不允许整页滚动，滚动交给内部容器 */
+body.overlay {
+  overflow: hidden;
+  user-select: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* ------------------------------------------------------------ 玻璃容器 */
+
+.glass {
+  position: relative;
+  isolation: isolate;
+  background: var(--glass-tint);
+  border: 1px solid var(--glass-stroke);
+  box-shadow: var(--glass-shadow), var(--glass-inner-highlight);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+}
+
+/*
+ * ============================================================
+ * 三层光效（参考华为"沉浸光感"）：
+ *
+ *   ① glow    外圈光晕   → .glass::before  中心透明、外圈渐亮，强化圆角轮廓
+ *   ② frost   内部漫射   → .widget-light   几层极淡径向渐变，制造玻璃厚度
+ *   ③ caustic 边缘弯折   → .glass::after   最外圈约 1px 的受光亮弧与色散
+ *
+ * 三层分散在不同元素上，因此可以各自调浓度：
+ * 每个变量直接乘进渐变色的 alpha，比用 opacity 缩放整层更精确——
+ * 用 opacity 缩放会把白色也一起压淡，导致"调弱光感"变成"整块变脏"。
+ * ============================================================
+ */
+
+/* ① 外圈光晕：中心完全透明，不覆盖文字区 */
+.glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: screen;
+  background-image: radial-gradient(
+    130% 115% at 50% 50%,
+    transparent 70%,
+    rgba(255, 255, 255, calc(0.14 * var(--glass-glow-strength))) 88%,
+    rgba(255, 255, 255, calc(0.32 * var(--glass-glow-strength))) 100%
+  );
+}
+
+/* ② 内部漫射层：由渲染层动态插入的 .widget-light / .glass-light 承担 */
+.widget-light,
+.glass-light {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: screen;
+  background-image: var(--glass-frost);
+}
+
+/* ③ 边缘折射环：只占最外圈约 1 像素，并且缓慢流动 */
+.glass::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: var(--glass-edge-band);
+  background: conic-gradient(
+    from 210deg,
+    rgba(255, 255, 255, 0.12) 0deg,
+    rgba(255, 255, 255, 0.95) 24deg,
+    rgba(150, 215, 255, 0.6) 74deg,
+    rgba(255, 255, 255, 0.1) 138deg,
+    rgba(255, 255, 255, 0.68) 194deg,
+    rgba(255, 175, 235, 0.45) 250deg,
+    rgba(255, 255, 255, 0.08) 316deg,
+    rgba(255, 255, 255, 0.95) 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  mix-blend-mode: screen;
+  opacity: calc(var(--glass-caustic-strength) * 0.85);
+  pointer-events: none;
+  z-index: 2;
+}
+
+
+/* 流光只在高优先级变化时播一次，避免持续动画干扰阅读 */
+@keyframes glass-sheen {
+  0% {
+    background-position: -140% 0, 0 0;
+  }
+  100% {
+    background-position: 240% 0, 0 0;
+  }
+}
+
+/*
+ * 涟漪：仅在高优先级变化时播一次。
+ * 注意这里必须把光晕渐变原样带上，否则 ::before 的 background-image 会被这一条覆盖掉，
+ * 流光播完（animation 结束）时圆角轮廓光就没了。
+ */
+.glass.ripple::before {
+  background-image:
+    linear-gradient(104deg, transparent 38%, rgba(255, 255, 255, 0.62) 50%, transparent 62%),
+    radial-gradient(
+      130% 115% at 50% 50%,
+      transparent 70%,
+      rgba(255, 255, 255, calc(0.14 * var(--glass-glow-strength))) 88%,
+      rgba(255, 255, 255, calc(0.32 * var(--glass-glow-strength))) 100%
+    );
+  background-size: 220% 100%, 100% 100%;
+  animation: glass-sheen 760ms ease-out;
+}
+
+.glass-card {
+  position: relative;
+  background: var(--glass-tint-soft);
+  border: 1px solid var(--glass-stroke);
+  box-shadow: var(--glass-inner-highlight);
+  border-radius: var(--radius-card);
+}
+
+/* ------------------------------------------------------------ 拖拽把手 */
+
+.drag-handle {
+  -webkit-app-region: drag;
+  cursor: grab;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* ------------------------------------------------------------ 文本层级 */
+
+.t-title {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.t-body {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.t-caption {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  letter-spacing: 0.02em;
+}
+
+.t-muted {
+  color: var(--text-secondary);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.pill {
+  border-radius: var(--radius-pill);
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pill-accent {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.pill-danger {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+/* 液态涟漪：高优先级任务到来时的一次性光流 */
+@keyframes liquid-ripple {
+  0% {
+    opacity: 0;
+    transform: translateX(-40%);
+  }
+  35% {
+    opacity: 0.55;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(140%);
+  }
+}
+
+.ripple::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, transparent 0%, rgba(255, 255, 255, 0.75) 45%, transparent 100%);
+  animation: liquid-ripple 620ms ease-out;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ripple::after {
+    animation: none;
+  }
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* 滚动条：细、半透明 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 128, 145, 0.35);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

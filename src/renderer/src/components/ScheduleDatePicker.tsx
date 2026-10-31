@@ -1,0 +1,12 @@
+import * as React from 'react';
+import {ControlIcon} from './ControlIcon';
+import {useEffect,useRef,useState} from 'react';
+import {homeMonthDays,shiftHomeMonth} from '@shared/home';
+import {currentLanguage} from '@shared/i18n';
+import {today} from '@shared/time';
+export function ScheduleDatePicker({value,onChange}:{value:string;onChange:(date:string)=>void}){
+ const [open,setOpen]=useState(false),[month,setMonth]=useState(value.slice(0,7)),ref=useRef<HTMLDivElement>(null);
+ useEffect(()=>{if(!open)return;const close=(event:PointerEvent)=>{if(!ref.current?.contains(event.target as Node))setOpen(false);},key=(event:KeyboardEvent)=>{if(event.key==='Escape')setOpen(false);};document.addEventListener('pointerdown',close);document.addEventListener('keydown',key);return()=>{document.removeEventListener('pointerdown',close);document.removeEventListener('keydown',key);};},[open]);
+ const choose=(date:string)=>{onChange(date);setOpen(false);};
+ return <div className="schedule-date-control" ref={ref}><button className="ghost-btn schedule-date-trigger" aria-expanded={open} aria-label="选择日程日期" onClick={()=>{setMonth(value.slice(0,7));setOpen(!open);}}><ControlIcon name="calendar"/><span>{new Intl.DateTimeFormat(currentLanguage(),{month:'long',day:'numeric',weekday:'short'}).format(new Date(value+'T12:00'))}</span><ControlIcon name="down"/></button>{open&&<section className="schedule-date-picker" role="dialog" aria-label="选择日程日期"><header><button className="icon-btn" aria-label="上个月" onClick={()=>setMonth(shiftHomeMonth(month,-1))}><ControlIcon name="left"/></button><strong>{new Intl.DateTimeFormat(currentLanguage(),{year:'numeric',month:'long'}).format(new Date(month+'-01T12:00'))}</strong><button className="icon-btn" aria-label="下个月" onClick={()=>setMonth(shiftHomeMonth(month,1))}><ControlIcon name="right"/></button></header><div className="schedule-date-weekdays">{Array.from({length:7},(_,i)=><span key={i}>{new Intl.DateTimeFormat(currentLanguage(),{weekday:'short'}).format(new Date(2026,9,12+i))}</span>)}</div><div className="schedule-date-days">{homeMonthDays(month).map((date,index)=>date?<button key={date} data-date={date} className={`${date===value?'selected':''}${date===today()?' today':''}`} aria-pressed={date===value} onClick={()=>choose(date)}>{Number(date.slice(-2))}</button>:<span key={index}/>)}</div><button className="ghost-btn" onClick={()=>choose(today())}>回到今天</button></section>}</div>;
+}

@@ -1,0 +1,17 @@
+import {strict as assert} from 'node:assert';
+import {describe,it} from 'node:test';
+import {buildCourseAxis} from '../courseAxis';
+import {expandDayLessons} from '../timetable';
+import {buildWeek} from '../agenda';
+import {course, session, SEMESTER, TIME_SLOTS} from './fixtures';
+const lesson=(startMinute:number,endMinute:number)=>({id:`l-${startMinute}`,kind:'lesson' as const,title:'课程',startMinute,endMinute,timeLabel:''});
+const week=(blocks:ReturnType<typeof lesson>[])=>({days:[{date:'2025-10-08',weekday:'周三',dayLabel:'10/08',isToday:true,blocks}],weekStart:'2025-10-06',dueCount:0,firstBusyIndex:0});
+describe('课程卡片数据与上课时间轴',()=>{
+ it('保留老师与每节课的准确起止时间',()=>{const input={date:'2025-10-08',semester:SEMESTER,courses:[{...course('c','数据结构'),teacher:'李老师'}],sessions:[session('s','c',3,1,2,{room:'教学楼 201'})],overrides:[],timeSlots:TIME_SLOTS};const l=expandDayLessons(input)[0];assert.equal(l.teacher,'李老师');assert.equal(l.lessonCount,2);assert.equal(l.lessonCountEstimated,false);assert.equal(l.lessonPeriods?.length,2);const w=buildWeek({...input,tasks:[],exams:[],blocks:[],busy:[]},'2025-10-06',7,'2025-10-08');assert.equal(w.days[2].blocks[0].teacher,'李老师');assert.equal(w.days[2].isToday,true);assert.equal(w.days[0].isToday,false);});
+ it('直接订阅的占位节次不会被当作一节课',()=>{const l=expandDayLessons({date:'2025-10-08',semester:SEMESTER,courses:[course('c','订阅课程')],sessions:[session('s','c',3,1,1,{startTime:'08:40',endTime:'10:15'})],overrides:[],timeSlots:[]})[0];assert.equal(l.lessonCount,2);assert.equal(l.lessonCountEstimated,true);assert.equal(l.lessonPeriods,undefined);assert.equal(l.startAt,'2025-10-08T08:40');assert.equal(l.endAt,'2025-10-08T10:15');});
+ it('已知节次的课堂保留完整行，午休只压缩显示',()=>{const axis=buildCourseAxis(week([lesson(520,615),lesson(810,905)]),[{slotIndex:1,startTime:'08:40',endTime:'09:25'},{slotIndex:2,startTime:'09:30',endTime:'10:15'},{slotIndex:3,startTime:'13:30',endTime:'14:15'},{slotIndex:4,startTime:'14:20',endTime:'15:05'}]);assert.equal(axis.rows.filter(r=>r.slotIndex).length,4);assert.equal(axis.unitAt(565),1);assert.ok(axis.unitAt(810)-axis.unitAt(615)<1);assert.ok(axis.unitAt(905)>axis.unitAt(810));});
+ it('没有节次表时只按实际上课区间显示，不编造节号',()=>{const axis=buildCourseAxis(week([lesson(520,615),lesson(810,905)]));assert.ok(axis.rows.every(r=>r.slotIndex===undefined));assert.equal(axis.rows.filter(r=>r.kind==='lesson').length,2);assert.ok(axis.unitAt(810)-axis.unitAt(615)<1);assert.equal(axis.unitAt(520),0);assert.equal(axis.unitAt(905),axis.totalUnits);});
+ it('跨节课程中的课间保持压缩的休息行',()=>{const slots=[{slotIndex:1,startTime:'08:40',endTime:'09:25'},{slotIndex:2,startTime:'09:30',endTime:'10:15'}];const l={...lesson(520,615),lessonPeriods:slots,lessonCountEstimated:false};const axis=buildCourseAxis(week([l]),slots);const gap=axis.rows.find(r=>r.start===565&&r.end===570)!;assert.equal(gap.kind,'break');assert.equal(gap.units,.12);assert.equal(axis.rows.filter(r=>r.kind==='lesson').length,2);});
+ it('节次范围之外的真实课程仍有对应时段',()=>{const axis=buildCourseAxis(week([lesson(1000,1045)]),[{slotIndex:1,startTime:'08:00',endTime:'08:45'}]);assert.ok(axis.rows.some(r=>r.start===1000&&r.end===1045&&r.kind==='lesson'));assert.ok(axis.unitAt(1045)>axis.unitAt(1000));});
+ it('重叠课程共用时间轴，空课表保持有限尺寸',()=>{const axis=buildCourseAxis(week([lesson(520,615),lesson(570,660)]));assert.ok(axis.unitAt(615)>axis.unitAt(570));assert.ok(axis.rows.every(r=>r.end>r.start));assert.equal(buildCourseAxis(week([])).totalUnits,1);});
+});

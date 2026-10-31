@@ -1,0 +1,1826 @@
+{
+  "减少数值": [
+    "Decrease value",
+    "値を減らす"
+  ],
+  "增加数值": [
+    "Increase value",
+    "値を増やす"
+  ],
+  "雾青": [
+    "Misty sage",
+    "霧のセージ"
+  ],
+  "长期": [
+    "Long-term",
+    "長期"
+  ],
+  "方向手册 · 分支与日记": [
+    "Direction handbook · Branches & diaries",
+    "方向ノート · 分岐と日記"
+  ],
+  "暂时无法读取长期任务，请重试。": [
+    "Could not load long-term goals. Please retry.",
+    "長期タスクを読み込めませんでした。再試行してください。"
+  ],
+  "暂时无法保存长期任务，请重试。": [
+    "Could not save this goal. Please retry.",
+    "長期タスクを保存できませんでした。再試行してください。"
+  ],
+  "删除这个项目及所有下级分支？相关日记只会解除关联，不会删除。": [
+    "Delete this item and all its branches? Linked diaries will be unlinked and kept.",
+    "この項目とすべての下位分岐を削除しますか？日記は関連を解除するだけで、削除しません。"
+  ],
+  "把大的方向留下，下一步慢慢想。": [
+    "Keep a direction. Find the next step as you go.",
+    "大きな方向を残して、次の一歩はゆっくり考える。"
+  ],
+  "＋ 新建长期任务": [
+    "＋ New long-term goal",
+    "＋ 新しい長期タスク"
+  ],
+  "从一个想坚持的方向开始": [
+    "Start with something you want to keep pursuing",
+    "続けたい方向から始めよう"
+  ],
+  "比如学习日语、准备考试、完成一个作品。无需先想好所有步骤，分支可以随时继续添加。": [
+    "Learn a language, prepare for an exam or create something. You do not need all the steps in advance; add branches whenever you need them.",
+    "語学、試験勉強、作品づくりなど。最初にすべての手順を決める必要はありません。分岐はいつでも追加できます。"
+  ],
+  "创建第一个长期任务": [
+    "Create your first long-term goal",
+    "最初の長期タスクを作成"
+  ],
+  "长期任务列表": [
+    "Long-term goals",
+    "長期タスク一覧"
+  ],
+  "还没有写说明，先迈出小小的一步。": [
+    "No description yet. Begin with one small step.",
+    "説明はまだありません。小さな一歩から。"
+  ],
+  "已完成 {0} 项 · 当前记录 {1} 项": [
+    "{0} completed · {1} recorded so far",
+    "{0}件完了 · 現在{1}件を記録"
+  ],
+  "{0} 篇关联日记": [
+    "{0} linked diaries",
+    "関連する日記 {0}件"
+  ],
+  "打开方向手册": [
+    "Open handbook",
+    "方向ノートを開く"
+  ],
+  "编辑 {0}": [
+    "Edit {0}",
+    "{0}を編集"
+  ],
+  "编辑": [
+    "Edit",
+    "編集"
+  ],
+  "删除 {0}": [
+    "Delete {0}",
+    "{0}を削除"
+  ],
+  "删除": [
+    "Delete",
+    "削除"
+  ],
+  "← 长期任务列表": [
+    "← Long-term goals",
+    "← 長期タスク一覧"
+  ],
+  "正在打开方向手册…": [
+    "Opening handbook…",
+    "方向ノートを開いています…"
+  ],
+  "方向手册": [
+    "Direction handbook",
+    "方向ノート"
+  ],
+  "长期 / 方向手册": [
+    "Long-term / Handbook",
+    "長期 / 方向ノート"
+  ],
+  "不用预设终点，沿着自己的方向慢慢走。": [
+    "No fixed step count. Follow your direction at your pace.",
+    "手順の数は決めずに、自分の方向へ少しずつ。"
+  ],
+  "＋ 添加分支": [
+    "＋ Add branch",
+    "＋ 分岐を追加"
+  ],
+  "编辑说明": [
+    "Edit description",
+    "説明を編集"
+  ],
+  "重新打开任务": [
+    "Reopen goal",
+    "タスクを再開"
+  ],
+  "完成这个方向": [
+    "Complete this goal",
+    "この方向を完了"
+  ],
+  "我的分支": [
+    "My branches",
+    "自分の分岐"
+  ],
+  "分支可逐级细分": [
+    "Keep breaking branches down",
+    "分岐をさらに細分化できます"
+  ],
+  "先写下一件想推进的事": [
+    "Write down one thing to move forward",
+    "まず進めたいことをひとつ"
+  ],
+  "不需要一次列完整。在任意分支旁点「＋」，都能继续添加下级分支。": [
+    "Your plan can grow over time. Choose + beside any branch to add another level.",
+    "一度にすべて決めなくて大丈夫です。分岐の横の「＋」で下位の分岐を追加できます。"
+  ],
+  "添加第一条分支": [
+    "Add your first branch",
+    "最初の分岐を追加"
+  ],
+  "收起分支": [
+    "Collapse branch",
+    "分岐を閉じる"
+  ],
+  "展开分支": [
+    "Expand branch",
+    "分岐を展開"
+  ],
+  "重新打开 {0}": [
+    "Reopen {0}",
+    "{0}を再開"
+  ],
+  "完成 {0}": [
+    "Complete {0}",
+    "{0}を完了"
+  ],
+  "第 {0} 级分支": [
+    "Level {0}",
+    "第{0}階層"
+  ],
+  "{0} 个下级分支": [
+    "{0} child branches",
+    "下位の分岐 {0}件"
+  ],
+  "为 {0} 添加下级分支": [
+    "Add a branch under {0}",
+    "{0}の下に分岐を追加"
+  ],
+  "日记里的足迹": [
+    "Footprints in your diary",
+    "日記に残る足跡"
+  ],
+  "看全部": [
+    "View all",
+    "すべて見る"
+  ],
+  "把日记关联到当前项目，留下变化的过程。": [
+    "Link a diary to this item to keep a record of change.",
+    "この項目に日記を関連付けて、変化の過程を残そう。"
+  ],
+  "还没有关联日记": [
+    "No linked diaries yet",
+    "関連する日記はまだありません"
+  ],
+  "加密日记仍需解锁，解除关联不会删除日记。": [
+    "Protected diaries still require unlocking. Unlinking keeps the diary.",
+    "保護された日記は解除が必要です。関連を解除しても日記は残ります。"
+  ],
+  "最近完成": [
+    "Recently completed",
+    "最近の完了"
+  ],
+  "每完成一项，都会在这里留下时间。": [
+    "Completed items leave a timestamp here.",
+    "完了するたびに、ここに日時を残します。"
+  ],
+  "完成于": [
+    "Completed at",
+    "完了日時"
+  ],
+  "上次完成于": [
+    "Last completed at",
+    "前回の完了日時"
+  ],
+  "编辑项目": [
+    "Edit item",
+    "項目を編集"
+  ],
+  "添加下级分支": [
+    "Add child branch",
+    "下位の分岐を追加"
+  ],
+  "新建长期任务": [
+    "New long-term goal",
+    "新しい長期タスク"
+  ],
+  "比如学习日语": [
+    "For example, learn Japanese",
+    "例：日本語を学ぶ"
+  ],
+  "说明": [
+    "Description",
+    "説明"
+  ],
+  "写下你的想法，下一步以后再补充。": [
+    "Write your thoughts. Add the next step later.",
+    "思いを書いて、次の一歩は後から追加。"
+  ],
+  "不预设总步骤数，之后可以随时继续细分。": [
+    "No fixed total. Add more detail whenever you need it.",
+    "合計数は決めず、必要なときに細分化できます。"
+  ],
+  "删除项目": [
+    "Delete item",
+    "項目を削除"
+  ],
+  "请选择有效的长期项目": [
+    "Select a valid long-term item",
+    "有効な長期項目を選択してください"
+  ],
+  "这个长期项目已不存在": [
+    "This long-term item no longer exists",
+    "この長期項目は存在しません"
+  ],
+  "请先打开所属的长期任务": [
+    "Open the parent long-term goal first",
+    "先に所属する長期タスクを開いてください"
+  ],
+  "请输入 1–120 个字符的名称": [
+    "Enter a name of 1–120 characters",
+    "名前は1～120文字で入力してください"
+  ],
+  "说明最多 8000 个字符": [
+    "Descriptions can contain up to 8000 characters",
+    "説明は8000文字までです"
+  ],
+  "请选择项目状态": [
+    "Choose an item status",
+    "項目の状態を選択してください"
+  ],
+  "请先完成下级分支，再完成这个项目": [
+    "Complete the child branches before completing this item",
+    "下位の分岐を完了してから、この項目を完了してください"
+  ],
+  "请选择有效的日记日期": [
+    "Choose a valid diary date",
+    "有効な日記の日付を選択してください"
+  ],
+  "15 分钟后上 {0}": [
+    "{0} starts in 15 minutes",
+    "15分後に{0}"
+  ],
+  "{0} 开始": [
+    "Starts at {0}",
+    "{0} 開始"
+  ],
+  "今天 {0} 节课": [
+    "{0} classes today",
+    "今日の授業 {0}コマ"
+  ],
+  "{0} 个 DDL": [
+    "{0} deadlines",
+    "期限 {0}件"
+  ],
+  "{0} 项已超期": [
+    "{0} overdue",
+    "期限切れ {0}件"
+  ],
+  "暂无超期": [
+    "Nothing overdue",
+    "期限切れなし"
+  ],
+  "你错过了 {0} 条提醒": [
+    "You missed {0} reminders",
+    "{0}件の通知を見逃しました"
+  ],
+  "已合并为一条，点击查看今天的安排": [
+    "Combined into one reminder. View today's schedule.",
+    "ひとつにまとめました。今日の予定をご確認ください。"
+  ],
+  "默认": [
+    "Default",
+    "既定"
+  ],
+  "浅蓝": [
+    "Light blue",
+    "水色"
+  ],
+  "浅绿": [
+    "Mint",
+    "淡い緑"
+  ],
+  "淡紫": [
+    "Lavender",
+    "薄紫"
+  ],
+  "粉色": [
+    "Pink",
+    "ピンク"
+  ],
+  "没有预算": [
+    "No budget",
+    "予算なし"
+  ],
+  " / 预算 ¥": [
+    " / budget ¥",
+    " / 予算 ¥"
+  ],
+  " · 按当前日均，余额大约还能撑 ": [
+    " · At this rate, about ",
+    " · 現在の平均で残り約 "
+  ],
+  "系统默认": [
+    "System default",
+    "システム既定"
+  ],
+  "系统界面": [
+    "System UI",
+    "システムの表示フォント"
+  ],
+  "暂时没有安排": [
+    "No events yet",
+    "まだ予定がありません"
+  ],
+  "紧急": [
+    "Urgent",
+    "緊急"
+  ],
+  "很急": [
+    "High",
+    "高い"
+  ],
+  "正常": [
+    "Normal",
+    "通常"
+  ],
+  "不急": [
+    "Low",
+    "低い"
+  ],
+  "随意": [
+    "Whenever",
+    "いつでも"
+  ],
+  "今天必须交 / 必须做完": [
+    "Must finish today",
+    "今日中に完了が必要"
+  ],
+  "本周内必须完成": [
+    "Must finish this week",
+    "今週中に完了が必要"
+  ],
+  "按计划推进即可": [
+    "Follow the plan",
+    "計画に沿って進める"
+  ],
+  "有空再做": [
+    "Do it when free",
+    "空いたときに"
+  ],
+  "想做就做，无硬截止": [
+    "No fixed deadline",
+    "決まった期限なし"
+  ],
+  "最高优先，占用你的高效时段，允许拆成多块连排": [
+    "Top priority, using productive hours with consecutive sessions allowed",
+    "最優先で集中できる時間帯に配置し、連続セッションを許可"
+  ],
+  "次高优先，排在普通任务之前": [
+    "High priority, ahead of normal tasks",
+    "通常のタスクより優先"
+  ],
+  "按截止时间顺序排队": [
+    "Ordered by deadline",
+    "期限順に配置"
+  ],
+  "填充剩余空闲，必要时可被挤后": [
+    "Fills spare time; may be moved later",
+    "空き時間に配置し、必要に応じて後ろに移動"
+  ],
+  "只在真正空闲时安排，默认不排入日程": [
+    "Only in free time; not scheduled by default",
+    "余裕があるときのみ。既定では配置しません"
+  ],
+  "未开始": [
+    "Not started",
+    "未開始"
+  ],
+  "不足 40%": [
+    "Below 40%",
+    "40%未満"
+  ],
+  "40% ~ 80%": [
+    "40%–80%",
+    "40%～80%"
+  ],
+  "80% 及以上": [
+    "80% or more",
+    "80%以上"
+  ],
+  "全部完成": [
+    "All done",
+    "すべて完了"
+  ],
+  "周一": [
+    "Mon",
+    "月曜日"
+  ],
+  "周二": [
+    "Tue",
+    "火曜日"
+  ],
+  "周三": [
+    "Wed",
+    "水曜日"
+  ],
+  "周四": [
+    "Thu",
+    "木曜日"
+  ],
+  "周五": [
+    "Fri",
+    "金曜日"
+  ],
+  "周六": [
+    "Sat",
+    "土曜日"
+  ],
+  "周日": [
+    "Sun",
+    "日曜日"
+  ],
+  "昨天": [
+    "Yesterday",
+    "昨日"
+  ],
+  "{0} 分钟": [
+    "{0} min",
+    "{0}分"
+  ],
+  "{0} 小时": [
+    "{0} hr",
+    "{0}時間"
+  ],
+  "{0} 小时 {1} 分钟": [
+    "{0} hr {1} min",
+    "{0}時間{1}分"
+  ],
+  "{0} 天": [
+    "{0} days",
+    "{0}日"
+  ],
+  "{0} 天 {1} 小时": [
+    "{0} days {1} hr",
+    "{0}日{1}時間"
+  ],
+  "{0}月{1}日": [
+    "{0}/{1}",
+    "{0}月{1}日"
+  ],
+  "{0}年{1}月": [
+    "{0}/{1}",
+    "{0}年{1}月"
+  ],
+  "{0}月{1}日 {2}": [
+    "{0}/{1} {2}",
+    "{0}月{1}日 {2}"
+  ],
+  "{0} 月": [
+    "Month {0}",
+    "{0}月"
+  ],
+  "还有 {0} 开始": [
+    "Starts in {0}",
+    "開始まで{0}"
+  ],
+  "还有 {0} 结束": [
+    "Ends in {0}",
+    "終了まで{0}"
+  ],
+  "{0}后开始": [
+    "Starts in {0}",
+    "{0}後に開始"
+  ],
+  "{0}后结束": [
+    "Ends in {0}",
+    "{0}後に終了"
+  ],
+  "未设预算": [
+    "No budget",
+    "予算なし"
+  ],
+  "按每日总预算折算": [
+    "Scaled from daily budget",
+    "1日の予算を換算"
+  ],
+  "本月期初余额": [
+    "This month's opening balance",
+    "今月の月初残高"
+  ],
+  "本月 期初余额": [
+    "This month's opening balance",
+    "今月の月初残高"
+  ],
+  "今日课程（{0}）": [
+    "Today's classes ({0})",
+    "今日の授業（{0}）"
+  ],
+  "紧急任务（{0}）": [
+    "Urgent tasks ({0})",
+    "緊急タスク（{0}）"
+  ],
+  "今天没有课程": [
+    "No classes today",
+    "今日は授業がありません"
+  ],
+  "暂无紧急任务": [
+    "No urgent tasks",
+    "緊急タスクはありません"
+  ],
+  "今日课程与紧急任务": [
+    "Today's classes & urgent tasks",
+    "今日の授業と緊急タスク"
+  ],
+  "打开 ColDesk": [
+    "Open ColDesk",
+    "ColDeskを開く"
+  ],
+  "重新编排日程": [
+    "Replan schedule",
+    "予定を組み直す"
+  ],
+  "退出": [
+    "Quit",
+    "終了"
+  ],
+  "语言、导航与启动提醒": [
+    "Language, navigation & startup reminders",
+    "言語・ナビゲーション・起動通知"
+  ],
+  "设置 → 通用 → 语言与导航，可选择简体中文、English 或日本語，调整导航顺序与启动页面。默认打开日程，学习和生活事项合并在任务页的两个标签内。每次启动会显示今天的课程和紧急任务，点击「收到」后关闭；系统通知收起时，应用提醒仍会保留。": [
+    "In Settings → General → Language & navigation, choose Chinese, English or Japanese, reorder navigation and select your startup page. Schedule is the default. Study and personal tasks are two tabs in Tasks. Each launch shows today's classes and urgent tasks; choose Got it to dismiss. The app's reminder remains even if Windows collapses its notification.",
+    "設定 → 一般 → 言語とナビゲーションで中国語・英語・日本語、順序と起動時の画面を選べます。既定は予定です。学習と生活はタスク内の2つのタブです。起動時に今日の授業と緊急タスクを表示し、「受け取りました」で閉じます。Windowsの通知が消えてもアプリの通知は残ります。"
+  ],
+  "日记与记账的双向关联": [
+    "Link diaries and expenses",
+    "日記と家計簿の相互リンク"
+  ],
+  "在日记编辑页的「关联记账」中选一笔记录并添加关联；在记账流水旁点击「关联日记」，选择日记日期。保存后两边都能点击跳转。解除关联不会删除原记录，加密日记仍需解锁后查看。": [
+    "Use Linked expenses in a diary to select an entry, or Linked diaries beside an expense to choose a date. Saved links work both ways. Unlinking keeps the original records. Protected diaries still require unlocking.",
+    "日記の「支出を関連付け」で記録を選ぶか、家計簿の「日記を関連付け」で日付を選びます。保存後は両方から開けます。解除しても元の記録は消えません。保護された日記は解除が必要です。"
+  ],
+  "按习惯打开应用": [
+    "Open the app your way",
+    "自分に合った起動"
+  ],
+  "设置 → 通用可切换中文、英语和日语，调整导航顺序和启动页面。启动提醒需点击「收到」确认。日记与记账可添加双向关联，加密日记仍需解锁。": [
+    "Settings → General lets you choose Chinese, English or Japanese, reorder navigation and set your startup page. Choose Got it to acknowledge startup reminders. Link diaries and expenses in either direction; protected diaries still require unlocking.",
+    "設定 → 一般で中国語・英語・日本語、順序と起動時の画面を選べます。起動通知は「受け取りました」で確認します。日記と家計簿は相互に関連付けでき、保護された日記は解除が必要です。"
+  ],
+  "长期方向与分支": [
+    "Long-term directions and branches",
+    "長期の方向と分岐"
+  ],
+  "长期任务先显示列表，点击后打开方向手册。用分支旁的加号逐级细分，完成时记录时间，也能关联日记。": [
+    "Long-term opens a goal list. Select one to open its handbook. Use + beside a branch to add another level. Completion timestamps are recorded, and diaries can be linked.",
+    "長期ではまず一覧を表示し、選ぶと方向ノートが開きます。分岐の横の＋で細分化でき、完了日時を記録して日記も関連付けできます。"
+  ],
+  "先在长期任务列表中选择一个方向，打开后显示方向手册。每个分支旁的加号都能添加下级分支，没有预设的总步骤数或层级数量。点圆圈完成项目，悬停或聚焦可查看完成时间；重新打开后保留历史，新增分支会重新打开已完成的上级。点击分支名称，在右侧选择日期关联日记；加密日记仍需解锁。": [
+    "Select a long-term goal to open its handbook. Use + beside any branch to add children, with no fixed step count or depth. Use the circle to complete an item; hover or focus to see its timestamp. Reopening keeps completion history. New branches reopen completed ancestors. Select a branch and a diary date on the right to link them. Protected diaries still require unlocking.",
+    "長期タスクを選ぶと方向ノートが開きます。各分岐の＋で下位の分岐を追加でき、手順や階層の数は固定されていません。丸を押して完了し、ホバーかフォーカスで日時を確認できます。再開後も履歴は残り、新しい分岐を追加すると完了済みの上位項目は再開します。分岐名を選び、右側で日付を指定して日記と関連付けます。保護された日記は解除が必要です。"
+  ],
+  "★ 主任务": [
+    "★ Primary goal",
+    "★ メインタスク"
+  ],
+  "设为主任务": [
+    "Set as primary",
+    "メインに設定"
+  ],
+  "取消主任务": [
+    "Clear primary goal",
+    "メイン設定を解除"
+  ],
+  "量化目标": [
+    "Quantity target",
+    "数量目標"
+  ],
+  "量化分支": [
+    "Quantity branch",
+    "数量を記録する分岐"
+  ],
+  "进度方式": [
+    "Progress tracking",
+    "進捗の記録方法"
+  ],
+  "目标数量": [
+    "Target quantity",
+    "目標数量"
+  ],
+  "单位": [
+    "Unit",
+    "単位"
+  ],
+  "个、页、小时…": [
+    "items, pages, hours…",
+    "個、ページ、時間…"
+  ],
+  "例如四级单词 4000 个。保存后点击进度条，更新数量并查看每日月历。": [
+    "For example, 4,000 vocabulary words. After saving, click the progress bar to update your count and view the daily calendar.",
+    "例：英単語4,000個。保存後、進捗バーをクリックすると数量の更新と日別カレンダーを確認できます。"
+  ],
+  "不预设总步骤数，之后可以随时继续细分。已有进度记录会保留。": [
+    "Add more steps whenever you need. Existing progress records are kept.",
+    "手順はいつでも追加できます。これまでの進捗記録は保持されます。"
+  ],
+  "查看与更新进度": [
+    "View & update progress",
+    "進捗の確認と更新"
+  ],
+  "查看 {0} 的进度": [
+    "View progress for {0}",
+    "{0}の進捗を見る"
+  ],
+  "月历与进度 ↗": [
+    "Calendar & progress ↗",
+    "カレンダーと進捗 ↗"
+  ],
+  "量化分支 / 每日足迹": [
+    "Quantity tracking / Daily progress",
+    "数量の記録 / 毎日の歩み"
+  ],
+  "达到目标且下级分支完成后，会自动标记完成。": [
+    "Automatically completes when the target is reached and all child branches are done.",
+    "目標に達し、下位の分岐がすべて完了すると、自動的に完了になります。"
+  ],
+  "每日进度月历": [
+    "Daily progress calendar",
+    "毎日の進捗カレンダー"
+  ],
+  "本月净增加 {0} · 记录 {1} 天": [
+    "Net change this month: {0} · {1} days recorded",
+    "今月の純増：{0} · 記録日数：{1}日"
+  ],
+  "当天结束累计 {0}": [
+    "Total at end of day: {0}",
+    "その日の終了時の累計：{0}"
+  ],
+  "回到今天": [
+    "Today",
+    "今日に戻る"
+  ],
+  "更新方式": [
+    "Update method",
+    "更新方法"
+  ],
+  "本次增加": [
+    "Add progress",
+    "今回の増加量"
+  ],
+  "修改当前累计": [
+    "Correct current total",
+    "現在の累計を修正"
+  ],
+  "增加数量": [
+    "Amount to add",
+    "追加する数量"
+  ],
+  "当前累计数量": [
+    "Current total",
+    "現在の累計数量"
+  ],
+  "备注（可选）": [
+    "Note (optional)",
+    "メモ（任意）"
+  ],
+  "今天的小小进展…": [
+    "A little progress today…",
+    "今日の小さな進歩…"
+  ],
+  "增加量记在选中的日期；可以补记过去的进度。": [
+    "Progress is recorded on the selected date. You can add past progress.",
+    "選択した日付に記録します。過去の日付にも追加できます。"
+  ],
+  "填写目前的总数量，差额记在选中的日期；可用于修正记录。": [
+    "Enter your current total. The difference is recorded on the selected date to correct your records.",
+    "現在の合計を入力すると、差分が選択した日に記録されます。記録の修正に使えます。"
+  ],
+  "保存进度": [
+    "Save progress",
+    "進捗を保存"
+  ],
+  "已记录进度": [
+    "Progress saved",
+    "進捗を記録しました"
+  ],
+  "当日记录": [
+    "Records for this day",
+    "この日の記録"
+  ],
+  "这一天还没有记录": [
+    "No records for this day",
+    "この日の記録はまだありません"
+  ],
+  "暂时无法读取进度，请重试。": [
+    "Could not load progress. Please retry.",
+    "進捗を読み込めませんでした。再試行してください。"
+  ],
+  "暂时无法保存进度，请重试。": [
+    "Could not save progress. Please retry.",
+    "進捗を保存できませんでした。再試行してください。"
+  ],
+  "暂时无法保存进度，请检查页面提示后重试。": [
+    "Could not save progress. Check the message and retry.",
+    "進捗を保存できませんでした。メッセージを確認して再試行してください。"
+  ],
+  "单位最多 16 个字符": [
+    "Unit names must be 16 characters or fewer",
+    "単位は16文字以内で入力してください"
+  ],
+  "已有进度记录的分支不能更改单位，请新建分支记录另一种单位": [
+    "The unit cannot be changed after progress is recorded. Create another branch for a different unit.",
+    "記録がある分岐の単位は変更できません。別の単位には新しい分岐を作成してください。"
+  ],
+  "量化项目通过更新进度完成，达到目标且下级完成后会自动标记": [
+    "Update progress for quantity targets. Completion is automatic when the target and all child branches are done.",
+    "数量目標は進捗を更新してください。目標に達し、下位が完了すると自動的に完了になります。"
+  ],
+  "数量须为 0 到 10 亿之间的数字，最多三位小数；目标须大于 0": [
+    "Use a number from 0 to 1 billion, with up to three decimal places. Targets must exceed 0.",
+    "数量は0〜10億、小数点以下3桁までです。目標は0より大きい値にしてください。"
+  ],
+  "请选择长期任务作为主任务": [
+    "Choose a top-level goal as the primary goal",
+    "最上位の長期タスクをメインに選んでください"
+  ],
+  "请先为这个分支设置目标数量": [
+    "Set a quantity target for this branch first",
+    "先にこの分岐の目標数量を設定してください"
+  ],
+  "请选择今天或过去的有效日期": [
+    "Choose a valid date on or before today",
+    "今日以前の有効な日付を選んでください"
+  ],
+  "请选择增加数量或修改累计数量": [
+    "Choose to add progress or correct the total",
+    "増加量の追加か累計の修正を選んでください"
+  ],
+  "进度备注最多 500 个字符": [
+    "Progress notes must be 500 characters or fewer",
+    "進捗メモは500文字以内で入力してください"
+  ],
+  "这条进度记录已存在": [
+    "This progress record already exists",
+    "この進捗記録は既に存在します"
+  ],
+  "数量没有变化，无需重复记录": [
+    "The quantity has not changed",
+    "数量が変わっていません"
+  ],
+  "这次调整会使历史累计小于 0，请选择正确的日期": [
+    "This correction would make a past total negative. Choose the correct date.",
+    "この修正では過去の累計が負になります。正しい日付を選んでください。"
+  ],
+  "请选择有效的月份": [
+    "Choose a valid month",
+    "有効な月を選んでください"
+  ],
+  "长期任务点击后打开方向手册，用分支旁的加号逐级细分。开启量化目标后可更新数量，在月历中查看每天的变化；完成时记录时间，也能关联日记。设为主任务后，每次进入长期直接打开该方向手册。": [
+    "Open a goal to see its handbook. Add child branches with +. Enable a quantity target to update counts and view daily changes in the calendar. Completion times and diary links are supported. Set a primary goal to open its handbook by default.",
+    "長期タスクをクリックすると方向ノートが開きます。＋で下位の分岐を追加できます。数量目標を有効にすると、数量を更新し、毎日の変化をカレンダーで確認できます。完了時刻や日記との関連付けにも対応します。メインに設定すると、長期を開くたびにその方向ノートが表示されます。"
+  ],
+  "先在长期任务列表中选择一个方向，打开后显示方向手册。每个分支旁的加号都能添加下级分支，没有预设的总步骤数或层级数量。点圆圈完成项目，悬停或聚焦可查看完成时间；重新打开后保留历史，新增分支会重新打开已完成的上级。新建或编辑项目时可开启「量化目标」，设置数量和单位；点击进度条可增加数量或修正累计，月历按天保留变化，支持补记。达到目标且下级完成后自动标记完成。设为主任务后，下次进入长期会直接打开它的方向手册；仍可返回任务列表。点击分支名称，在右侧选择日期关联日记；加密日记仍需解锁。": [
+    "Choose a long-term goal to open its handbook. Add child branches with + at any depth. Ordinary steps can be checked off, with completion times and history retained. Enable a quantity target in the editor, then click its progress bar to add progress or correct the current total. The calendar keeps daily changes and allows backdated records. Targets complete automatically when the quantity and all children are done. Set one goal as primary to open it whenever you enter Long-term; the goal list remains available. Select a branch to link diary dates. Private diaries still require unlocking.",
+    "長期タスクを選ぶと方向ノートが開きます。＋で下位の分岐を何階層でも追加できます。通常の項目はチェックで完了し、完了時刻と履歴が残ります。編集画面で数量目標を有効にし、進捗バーから数量の追加や現在の累計の修正ができます。カレンダーには日々の変化が残り、過去の日付にも記録できます。数量目標と下位の完了を満たすと自動的に完了になります。メインに設定すると長期を開くたびにそのノートが表示され、一覧にも戻れます。分岐を選ぶと日記を関連付けられます。非公開の日記には引き続き解除が必要です。"
+  ],
+  "详细内容": [
+    "Details",
+    "詳細内容"
+  ],
+  "写下要做的事情、步骤或需要准备的材料…": [
+    "Describe the work, steps, or materials to prepare…",
+    "やること、手順、準備するものを書いてください…"
+  ],
+  "查看任务：{0}": [
+    "View task: {0}",
+    "タスクの詳細：{0}"
+  ],
+  "收起任务详情": [
+    "Close task details",
+    "タスクの詳細を閉じる"
+  ],
+  "收起详情": [
+    "Close details",
+    "詳細を閉じる"
+  ],
+  "截止时间：": [
+    "Due: ",
+    "期限："
+  ],
+  "还没有填写详细内容，可从任务右上角的“⋯”中选择“编辑任务”补充。": [
+    "No details yet. Choose “Edit task” from the task’s ⋯ menu to add them.",
+    "詳細はまだありません。タスク右上の「⋯」から「タスクを編集」を選んで追加できます。"
+  ],
+  "课程颜色": [
+    "Course colors",
+    "授業の色"
+  ],
+  "不同课程，不同的淡彩": [
+    "A soft color for each course",
+    "授業ごとに異なる淡い色"
+  ],
+  "展开后可逐门选择颜色，日程表、周视图与桌面组件会同步更新；重新导入同一门课时保留配色。": [
+    "Expand to choose each course’s color. The schedule, week view, and desktop widget update together. Colors are kept when the same course is imported again.",
+    "展開して授業ごとの色を選べます。日程表・週表示・デスクトップウィジェットに反映され、同じ授業を再インポートしても色は保持されます。"
+  ],
+  "恢复默认": [
+    "Reset",
+    "初期設定に戻す"
+  ],
+  "恢复全部默认配色": [
+    "Reset all course colors",
+    "すべての授業の色を初期設定に戻す"
+  ],
+  "还没有课程，导入课表后可在这里调整颜色。": [
+    "Import a timetable to adjust course colors here.",
+    "時間割をインポートすると、ここで授業の色を変更できます。"
+  ],
+  "课程颜色已更新": [
+    "Course color updated",
+    "授業の色を更新しました"
+  ],
+  "已恢复不同课程的默认配色": [
+    "Default colors restored for each course",
+    "授業ごとに異なる初期配色に戻しました"
+  ],
+  "暂时无法修改课程颜色，请重试。": [
+    "Could not update the course color. Please retry.",
+    "授業の色を変更できませんでした。再試行してください。"
+  ],
+  "{0} 的课程颜色": [
+    "Course colors for {0}",
+    "{0}の授業の色"
+  ],
+  "为 {0} 选择淡彩 {1}": [
+    "Choose pastel {1} for {0}",
+    "{0}に淡色{1}を選択"
+  ],
+  "请选择有效的课程颜色": [
+    "Choose a valid course color",
+    "有効な授業の色を選んでください"
+  ],
+  "请选择有效的课程": [
+    "Choose a valid course",
+    "有効な授業を選んでください"
+  ],
+  "这门课程已不存在，请重新打开设置": [
+    "This course no longer exists. Reopen settings.",
+    "この授業は存在しません。設定を開き直してください。"
+  ],
+  "请在主窗口中设置课程颜色": [
+    "Set course colors in the main window",
+    "授業の色はメインウィンドウで設定してください"
+  ],
+  "点「新建任务」，填写名称、详细内容、截止时间和预计用时。日程表、清单和周视图中点击任务块，会弹性放大显示完整内容；点击外部、收起按钮或按 Esc 关闭。拖动仍用于调整时间。任务右上角「⋯」可以置顶、删除、修改紧迫程度和截止时间、编辑名称及其他信息。置顶任务优先显示，删除会同时移除相关日程和提醒；浮窗里的编辑会打开主窗口。 设置 → 个性化 → 课程颜色，展开默认收起的配色区域，可逐门选择淡彩；不同课程默认使用不同颜色。": [
+    "Create a task with its title, details, deadline, and estimated duration. Click a task in the schedule, list, or week view to expand it and read the full details; click outside, close, or press Esc to collapse it. Dragging still adjusts its time. The ⋯ menu supports pinning, deletion, urgency, deadline, and editing. In Settings → Personalization → Course colors, expand the collapsed section to choose soft colors for individual courses. Courses have different default colors.",
+    "タイトル、詳細、期限、予定時間を入力してタスクを作成します。日程表・リスト・週表示のタスクをクリックすると、弾むアニメーションで詳細が開きます。外側をクリック、閉じるボタン、Escで戻れます。ドラッグは時間の調整に使えます。⋯メニューで固定、削除、緊急度、期限、編集を操作できます。設定 → 個人設定 → 授業の色を展開すると、授業ごとに淡色を選べます。初期設定でも異なる色が割り当てられます。"
+  ],
+  "暂时无法读取这一天的日程，请重试。": [
+    "Could not load this day. Please retry.",
+    "この日の日程を読み込めませんでした。再試行してください。"
+  ],
+  "暂时无法保存日程，请重试。": [
+    "Could not save the schedule. Please retry.",
+    "日程を保存できませんでした。再試行してください。"
+  ],
+  "已保存安排；其他任务仍留在任务栏。": [
+    "Scheduled. Other tasks remain in the task panel.",
+    "予定を保存しました。他のタスクはタスク欄に残ります。"
+  ],
+  "已收回任务栏，任务内容与截止时间保留。": [
+    "Returned to tasks. Details and deadline are kept.",
+    "タスク欄に戻しました。内容と期限は保持されます。"
+  ],
+  "删除这项日程？": [
+    "Delete this event?",
+    "この予定を削除しますか？"
+  ],
+  "日程已删除。": [
+    "Event deleted.",
+    "予定を削除しました。"
+  ],
+  "任务留在任务栏，时间由你安排。": [
+    "Keep tasks in your list. Choose when to schedule them.",
+    "タスクは一覧に保存され、時間は自分で決められます。"
+  ],
+  "＋ 新建日程": [
+    "＋ New event",
+    "＋ 予定を作成"
+  ],
+  "前一天": [
+    "Previous day",
+    "前日"
+  ],
+  "后一天": [
+    "Next day",
+    "翌日"
+  ],
+  "自习按课表节次安排，空闲课时也可以留给自己。": [
+    "Use your class periods for self-study.",
+    "時間割の空いている時限に自習を予定できます。"
+  ],
+  "选择日期后，将任务拖入空闲时间。": [
+    "Choose a date, then drag a task into free time.",
+    "日付を選び、空き時間にタスクをドラッグしてください。"
+  ],
+  "当日概览": [
+    "Day overview",
+    "この日の概要"
+  ],
+  "当日课程": [
+    "Classes",
+    "この日の授業"
+  ],
+  "已安排": [
+    "Scheduled",
+    "予定済み"
+  ],
+  "当日截止": [
+    "Due that day",
+    "この日の期限"
+  ],
+  "按时间顺序查看完整安排": [
+    "View the full day in time order",
+    "すべての予定を時間順に表示"
+  ],
+  "拖入空闲节次 · 点击任务查看内容": [
+    "Drag into a free period · Click for details",
+    "空き時限にドラッグ · クリックで詳細を表示"
+  ],
+  "· 总览": [
+    "· Overview",
+    "· 全体表示"
+  ],
+  "正在读取这一天的日程…": [
+    "Loading this day…",
+    "この日の日程を読み込み中…"
+  ],
+  "日程已保存。": [
+    "Event saved.",
+    "予定を保存しました。"
+  ],
+  "选择日程日期": [
+    "Choose schedule date",
+    "日程の日付を選択"
+  ],
+  "活动 · 讲座 · 临时课程": [
+    "Activities · Talks · Extra classes",
+    "活動 · 講演 · 臨時授業"
+  ],
+  "编辑日程": [
+    "Edit event",
+    "予定を編集"
+  ],
+  "新建日程": [
+    "New event",
+    "予定を作成"
+  ],
+  "关闭日程编辑": [
+    "Close event editor",
+    "予定の編集を閉じる"
+  ],
+  "标题": [
+    "Title",
+    "タイトル"
+  ],
+  "内容": [
+    "Content",
+    "内容"
+  ],
+  "活动安排、地点、准备事项…": [
+    "Plans, location, things to prepare…",
+    "内容、場所、準備すること…"
+  ],
+  "活动": [
+    "Activity",
+    "活動"
+  ],
+  "讲座": [
+    "Talk",
+    "講演"
+  ],
+  "临时课程": [
+    "Extra class",
+    "臨時授業"
+  ],
+  "日期": [
+    "Date",
+    "日付"
+  ],
+  "日程会占用所选时间段，学习任务仍由你从任务栏拖入安排。": [
+    "Events reserve their time. Drag study tasks from the task panel when you want to schedule them.",
+    "予定は選択した時間を確保します。学習タスクはタスク欄からドラッグして予定に追加できます。"
+  ],
+  "保存日程": [
+    "Save event",
+    "予定を保存"
+  ],
+  "收起日程详情": [
+    "Close event details",
+    "予定の詳細を閉じる"
+  ],
+  "尚未填写内容": [
+    "No content yet",
+    "内容はまだありません"
+  ],
+  "删除日程": [
+    "Delete event",
+    "予定を削除"
+  ],
+  "任务栏": [
+    "Tasks",
+    "タスク欄"
+  ],
+  "按截止时间与紧迫程度综合排序": [
+    "Ranked by deadline and urgency",
+    "期限と緊急度を総合して並べ替え"
+  ],
+  "自习课模式": [
+    "Self-study mode",
+    "自習モード"
+  ],
+  "拖入空闲节次，按课表时间安排": [
+    "Drag into a free class period",
+    "空き時限にドラッグして時間割に合わせて予定"
+  ],
+  "导入完整节次后可按课表安排，当前使用自由时长": [
+    "Import class periods to use this mode. Free duration is available now.",
+    "時限をインポートすると時間割に合わせられます。現在は時間を自由に設定できます。"
+  ],
+  "自由选择开始时间与持续时长": [
+    "Choose any start time and duration",
+    "開始時間と長さを自由に選択"
+  ],
+  "待安排的任务会出现在这里": [
+    "Tasks waiting to be scheduled appear here",
+    "未配置のタスクがここに表示されます"
+  ],
+  "拖到日程表安排时间": [
+    "Drag to schedule",
+    "ドラッグして予定を配置"
+  ],
+  "本次节数": [
+    "Periods",
+    "時限数"
+  ],
+  "当日已安排": [
+    "Scheduled this day",
+    "この日の予定時間"
+  ],
+  "日程标题请填写 1–200 个字符": [
+    "Event titles must be 1–200 characters",
+    "予定のタイトルは1～200文字で入力してください"
+  ],
+  "日程内容请控制在 8000 字以内": [
+    "Event content must be 8,000 characters or fewer",
+    "予定の内容は8,000文字以内で入力してください"
+  ],
+  "请选择日程类型": [
+    "Choose an event type",
+    "予定の種類を選んでください"
+  ],
+  "请选择同一天内有效的起止时间，结束需晚于开始": [
+    "Choose valid times on the same day, with the end after the start",
+    "同じ日の有効な時刻を選び、終了は開始より後にしてください"
+  ],
+  "这项日程已不存在，请重新选择": [
+    "This event no longer exists. Choose again.",
+    "この予定は存在しません。選び直してください。"
+  ],
+  "不在今日 · 收回任务栏": [
+    "Not today · Return to tasks",
+    "今日は外す · タスク欄に戻す"
+  ],
+  "手动安排日程": [
+    "Schedule manually",
+    "日程を手動で配置"
+  ],
+  "手动安排": [
+    "Manual scheduling",
+    "手動配置"
+  ],
+  "保存任务": [
+    "Save task",
+    "タスクを保存"
+  ],
+  "保存后留在任务栏，由你决定何时安排": [
+    "Saved to tasks. Choose when to schedule it.",
+    "タスク欄に保存され、予定に入れる時間は自分で決められます。"
+  ],
+  "待办任务": [
+    "Pending tasks",
+    "未完了のタスク"
+  ],
+  "按截止日期与紧迫程度综合排序": [
+    "Ranked by deadline and urgency",
+    "期限と緊急度を総合して並べ替え"
+  ],
+  "还没有待办任务": [
+    "No pending tasks",
+    "未完了のタスクはありません"
+  ],
+  "暂无已完成任务": [
+    "No completed tasks yet",
+    "完了したタスクはまだありません"
+  ],
+  "请按课表中连续的节次安排自习，午休和晚间间隔请分开安排": [
+    "Choose consecutive class periods. Schedule separate blocks across long breaks.",
+    "連続した時限を選んでください。昼休みなどの長い休憩をまたぐ場合は分けて配置してください。"
+  ],
+  "请选择有效的连续节次，午休和晚间间隔需分开安排": [
+    "Choose consecutive periods without long breaks",
+    "長い休憩をまたがない連続した時限を選んでください"
+  ],
+  "请选择有效的自习节数": [
+    "Choose a valid number of periods",
+    "有効な時限数を選んでください"
+  ],
+  "请选择有效的任务和日程日期": [
+    "Choose a valid task and date",
+    "有効なタスクと日付を選んでください"
+  ],
+  "请选择有效的日程日期": [
+    "Choose a valid schedule date",
+    "有効な日程の日付を選んでください"
+  ],
+  "请在主窗口中设置日程": [
+    "Set events in the main window",
+    "予定はメインウィンドウで設定してください"
+  ],
+  "查看日程：{0}": [
+    "View event: {0}",
+    "予定を見る：{0}"
+  ],
+  "任务保存后留在任务栏，在日程页选择日期并拖入空闲节次。": [
+    "Tasks stay in your list. Choose a date and drag into a free period.",
+    "タスクは一覧に保存されます。日付を選び、空き時限にドラッグしてください。"
+  ],
+  "新建任务可填写标题、多行详细内容、紧迫程度和截止时间；保存后留在任务栏，不会自动排入日程。任务列表按截止临近程度 60% 与紧迫程度 40% 综合排序，逾期额外加 30 分，置顶优先。同一截止时间下越紧急越靠前。右上角「⋯」可置顶、编辑、删除；已安排的任务还可选「不在今日」收回任务栏，保留内容和截止日期。": [
+    "Create tasks with a title, details, urgency, and deadline. Saving does not schedule them. Priority combines deadline proximity (60%) and urgency (40%), adds 30 points for overdue tasks, and respects pins. Use ⋯ to edit, delete, or return a scheduled task to the task panel.",
+    "タイトル、詳細、緊急度、期限を入力して保存します。自動的には配置されません。期限の近さ60％と緊急度40％を合算し、期限超過は30点を加算します。固定したタスクが優先されます。⋯から編集・削除や、配置済みタスクを一覧に戻せます。"
+  ],
+  "点击日程页日期按钮打开小日历，可查看、安排任意日期，也能用前后箭头或「回到今天」。自习课模式默认开启，拖入空闲节次时采用真实课表起止时间，连续多节包含课间；午休或晚间长间隔需分开安排。关闭模式后可自由设置时长。点击任务会弹性放大显示内容，拖动可修改时间；「不在今日」只撤回所选日期的安排，不删除任务。右上角「新建日程」专门记录活动、讲座、临时课程，填写标题、内容、日期和时间段，点击后可编辑或删除。日程与任务互相检查时间冲突。可通过「导入课表」读取杭电订阅或导入 AI 识别内容。": [
+    "Open the small date calendar to plan any day. Self-study mode uses actual class periods, including short breaks between consecutive periods. Split across long breaks, or turn the mode off for a free duration. Click tasks for details, drag to move them, or choose Not today to return them without deleting them. New event records activities, talks, and extra classes with a title, content, date, and time range. Click events to edit or delete them. Course and event times block conflicting task placements. Import a timetable from the HDU subscription or AI-recognized content.",
+    "小さなカレンダーで任意の日付を選べます。自習モードは実際の時限に合わせ、連続時限の短い休憩も含みます。長い休憩をまたぐ場合は分け、自由な長さにはモードをオフにしてください。タスクはクリックで詳細、ドラッグで移動でき、「今日は外す」で削除せず一覧に戻せます。「予定を作成」では活動・講演・臨時授業のタイトル、内容、日付、時間帯を登録します。予定はクリックで編集・削除でき、授業や予定と重なるタスク配置はできません。杭電の購読やAIの認識結果から時間割をインポートできます。"
+  ],
+  "任务保存后留在任务栏，不会自动占用时间。在日程页选择日期，再将任务拖入空闲节次；自习课模式默认采用课表中的时间，关闭后可自由设置时长。「不在今日」会将当天的任务收回任务栏，保留内容与截止时间。": [
+    "Tasks stay in the task panel without taking time. Choose a date and drag tasks into free periods. Self-study mode uses class times; turn it off to choose a free duration. Not today returns tasks while preserving their details and deadlines.",
+    "タスクは時間を確保せず一覧に保存されます。日付を選び、空き時限にドラッグしてください。自習モードは時間割に合わせ、オフでは長さを自由に設定できます。「今日は外す」で内容と期限を保ったまま一覧に戻せます。"
+  ],
+  "打开日程安排": [
+    "Open schedule",
+    "日程を開く"
+  ],
+  "任务安排方式": [
+    "Scheduling",
+    "予定の配置方法"
+  ],
+  "按截止时间与紧迫程度管理所有待办 · 今天": [
+    "All tasks, ordered by deadline and urgency · Today",
+    "期限と緊急度ですべてのタスクを管理 · 今日"
+  ],
+  "所有待办 · 截止时间与紧迫程度": [
+    "All tasks · Deadlines and urgency",
+    "すべてのタスク · 期限と緊急度"
+  ],
+  "保存到任务栏": [
+    "Save to task list",
+    "タスク一覧に保存"
+  ],
+  "待办": [
+    "To-do",
+    "やること"
+  ],
+  "结束时间（可选）": [
+    "End time (optional)",
+    "終了時刻（任意）"
+  ],
+  "时间段日程": [
+    "Scheduled time block",
+    "時間帯の予定"
+  ],
+  "一次提醒": [
+    "One-time reminder",
+    "一度だけの通知"
+  ],
+  "提醒": [
+    "Reminder",
+    "通知"
+  ],
+  "不占用时间段": [
+    "Does not reserve time",
+    "時間枠を確保しません"
+  ],
+  "日程会占用所选时间段，任务仍由你从任务栏拖入安排。": [
+    "This event reserves the selected time. Drag tasks from your list to schedule them.",
+    "この予定は選択した時間を確保します。タスクは一覧からドラッグして配置できます。"
+  ],
+  "不填结束时间，仅在开始时间提醒一次，不占用时间段。": [
+    "Leave the end time blank for a single reminder at the start time, without reserving time.",
+    "終了時刻を空欄にすると、開始時刻に一度だけ通知します。時間枠は確保しません。"
+  ],
+  "仅提醒一次，不占用时间段": [
+    "One reminder only; does not reserve time",
+    "一度だけ通知し、時間枠は確保しません"
+  ],
+  "请选择有效的日期和开始时间": [
+    "Choose a valid date and start time",
+    "有効な日付と開始時刻を選んでください"
+  ],
+  "提醒时间：{0}": [
+    "Reminder at: {0}",
+    "通知時刻：{0}"
+  ],
+  "事件提醒 · 仅此一次": [
+    "Event reminder · Once only",
+    "予定の通知 · 一度だけ"
+  ],
+  "所有待办统一保存在任务列表，需要安排时再拖入日程。": [
+    "All to-dos stay in one task list. Drag them into the schedule when needed.",
+    "すべてのタスクは一つの一覧に保存されます。必要なときに日程へドラッグしてください。"
+  ],
+  "任务与一次提醒": [
+    "Tasks and one-time reminders",
+    "タスクと一度だけの通知"
+  ],
+  "所有任务统一管理，不再区分学习或生活。新建日程的起止时间留空；只填写开始时间、不填写结束时间，即在该时间提醒一次，不占用时间段。填写结束时间则保存为时间段日程。": [
+    "All tasks share one list. New events start with blank time fields. Set a start time and leave the end time blank for one reminder without reserving time. Add an end time to reserve a time block.",
+    "すべてのタスクを一つの一覧で管理します。新しい予定の時刻は空欄です。開始時刻のみ入力すると一度だけ通知し、時間枠は確保しません。終了時刻も入力すると時間帯の予定になります。"
+  ],
+  "把任务、日程、记账与习惯放在一处，让每天要做的事更清楚。": [
+    "Keep tasks, schedules, expenses, and habits together for a clearer day.",
+    "タスク、予定、家計簿、習慣をまとめて、毎日やることを分かりやすく。"
+  ],
+  "点击日程页日期按钮打开小日历，可查看、安排任意日期，也能用前后箭头或「回到今天」。自习课模式默认开启，拖入空闲节次时采用真实课表起止时间，连续多节包含课间；午休或晚间长间隔需分开安排。关闭模式后可自由设置时长。点击任务会弹性放大显示内容，拖动可修改时间；「不在今日」只撤回所选日期的安排，不删除任务。右上角「新建日程」专门记录活动、讲座、临时课程，填写标题、内容、日期和开始时间；不填写结束时间时仅提醒一次，不占用时间段，填写结束时间则保存为时间段日程，点击后可编辑或删除。日程与任务互相检查时间冲突。可通过「导入课表」读取杭电订阅或导入 AI 识别内容。": [
+    "Choose any date in the calendar to plan your day. Self-study mode follows actual class periods, including short breaks; split across long breaks or turn the mode off for a free duration. Click tasks for details, drag them to move, or choose Not today to return them to the task panel. New event records a title, details, date, and start time. Leave the end time blank for one reminder without reserving time, or add an end time for a time block. Click events to edit or delete them. Timed events and classes prevent conflicting task placements. Import a timetable from HDU or AI-recognized content.",
+    "小さなカレンダーで任意の日付を選べます。自習モードは実際の時限に合わせ、短い休憩も含みます。長い休憩をまたぐ場合は分け、自由な長さにする場合はオフにしてください。タスクはクリックで詳細、ドラッグで移動でき、「今日は外す」で一覧に戻せます。新しい予定にはタイトル、内容、日付、開始時刻を入力します。終了時刻を空欄にすると一度だけ通知し、時間枠は確保しません。終了時刻を入力すると時間帯の予定になります。クリックで編集・削除できます。授業や時間帯の予定と重なる配置はできません。杭電の購読やAIの認識結果から時間割をインポートできます。"
+  ],
+  "设置 → 通用 → 语言与导航，可选择简体中文、English 或日本語，调整导航顺序与启动页面。默认打开日程，所有待办统一保存在任务页，不再区分学习或生活。每次启动会显示今天的课程和紧急任务，点击「收到」后关闭；系统通知收起时，应用提醒仍会保留。": [
+    "Settings → General → Language & navigation lets you choose Chinese, English, or Japanese, reorder the navigation, and select your start page. The schedule opens by default, and all tasks share one list. At startup, today’s classes and urgent tasks stay visible until you acknowledge them.",
+    "設定 → 一般 → 言語とナビゲーションで中国語・英語・日本語、メニューの順序、起動ページを変更できます。初期設定では日程が開き、すべてのタスクを一つの一覧で管理します。起動時の授業と緊急タスクの通知は「受け取りました」を押すまで表示されます。"
+  ],
+  "请设置有效的任务时间段": [
+    "Set valid task time ranges",
+    "有効なタスクの時間帯を設定してください"
+  ],
+  "请填写每段安排的日期、开始和结束时间": [
+    "Fill in the date, start, and end of every segment",
+    "各区間の日付・開始・終了時刻を入力してください"
+  ],
+  "分段记录已更新，请重新打开任务": [
+    "The schedule has changed. Reopen the task.",
+    "予定が更新されました。タスクを開き直してください。"
+  ],
+  "同一任务的时间段不能重叠，请调整开始或结束时间": [
+    "Segments of the same task cannot overlap. Adjust their times.",
+    "同じタスクの区間は重複できません。開始または終了時刻を変更してください。"
+  ],
+  "安排时长请填写 1–1440 分钟": [
+    "Choose a duration of 1–1440 minutes",
+    "所要時間は1〜1440分にしてください"
+  ],
+  "请填写 1–1440 分钟": [
+    "Enter 1–1440 minutes",
+    "1〜1440分を入力してください"
+  ],
+  "任务分段安排": [
+    "Task time segments",
+    "タスクの区間設定"
+  ],
+  "预计安排（可选）": [
+    "Planned time (optional)",
+    "予定時間（任意）"
+  ],
+  "自由设置日期和起止时间，也可以保存后拖入日程表。": [
+    "Choose any date and time range, or save and drag the task into your schedule.",
+    "日付と時間帯を自由に設定するか、保存後に日程へドラッグできます。"
+  ],
+  "暂未安排时间，任务会保留在任务栏。": [
+    "No time reserved yet. The task stays in your list.",
+    "時間は未設定です。タスクは一覧に残ります。"
+  ],
+  "删除第 {0} 段安排": [
+    "Remove segment {0}",
+    "区間{0}を削除"
+  ],
+  "＋ 添加时间段": [
+    "＋ Add time range",
+    "＋ 時間帯を追加"
+  ],
+  "同一任务只保留一项，日程中的多段安排会自动编号。": [
+    "One task in your list; its scheduled segments are numbered automatically.",
+    "一覧では一つのタスクとして表示し、日程の各区間に自動で番号を付けます。"
+  ],
+  "调整分段安排": [
+    "Edit time segments",
+    "区間を変更"
+  ],
+  "分段安排": [
+    "Time segments",
+    "分割した予定"
+  ],
+  "拖动添加一段安排，点击任务查看详情或设置多个时间段。": [
+    "Drag to add a time block. Click a task for details or multiple time ranges.",
+    "ドラッグで区間を追加できます。タスクをクリックすると詳細や複数の時間帯を設定できます。"
+  ],
+  "点击查看任务，拖动添加一段安排": [
+    "Click for details; drag to add a time block",
+    "クリックで詳細、ドラッグで区間を追加"
+  ],
+  "段 · 调整时间": [
+    "segments · Edit times",
+    "区間 · 時刻を変更"
+  ],
+  "选择日期后，自由填写时间段或拖动任务安排。": [
+    "Choose a date, then enter time ranges or drag tasks to schedule them.",
+    "日付を選び、時間帯を入力するかタスクをドラッグして配置できます。"
+  ],
+  "全天预览 · 自由安排任务时间": [
+    "Full-day view · Schedule tasks freely",
+    "一日の表示 · タスクを自由に配置"
+  ],
+  "关闭记账关联": [
+    "Close linked expenses",
+    "家計簿の関連付けを閉じる"
+  ],
+  "所有任务统一管理，自由填写一个或多个时间段，也可以保存后拖入日程。": [
+    "All tasks share one list. Set one or more time ranges, or drag them into your schedule later.",
+    "すべてのタスクを一つの一覧で管理します。時間帯を入力するか、保存後に日程へドラッグしてください。"
+  ],
+  "所有任务统一管理，可填写标题、详细内容、紧迫程度和截止时间。在「预计安排」中可选填一个或多个时间段；不填时仅保存在任务栏。任务栏始终只显示一项，日程中的分段按时间先后编号。点击任务名称可查看、编辑详情和各段安排，右上角「⋯」可置顶、修改截止时间、调整分段或删除。排序按截止临近程度60%与紧迫程度40%计算，逾期加30分，置顶优先。": [
+    "All tasks share one list. Enter a title, details, urgency, and deadline. Optionally add one or more planned time ranges; otherwise the task stays unscheduled. Each task remains one list item, with numbered segments in the schedule. Click its name to edit details and time ranges. Use ⋯ to pin, edit, or delete. Priority weights deadline proximity at 60% and urgency at 40%, adds 30 for overdue tasks, and places pinned tasks first.",
+    "すべてのタスクをまとめて管理します。タイトル、詳細、緊急度、期限を入力し、必要なら時間帯を追加してください。未設定なら一覧に保存します。一覧は一項目のまま、日程では各区間に番号を付けます。名前をクリックして詳細や時間帯を編集でき、⋯から固定・編集・削除できます。優先度は期限60％と緊急度40％、期限超過は30点を加算し、固定したタスクを先に表示します。"
+  ],
+  "点击日期按钮可安排任意日期。任务不需要对齐课程节次，可在新建任务或任务详情的「预计安排」中自由添加日期和起止时间，也可以从任务栏拖入日程表；同一任务可分成多段，任务栏始终只显示一项。多段安排按时间先后显示①②③，拖动某一段只移动这一段。点击任务详情中的「调整分段安排」，可增加、删除分段，修改每一段的日期和时间；「不在今日」收回该任务当天的全部分段。课程仍会检查时间冲突，「课表模式」只改变刻度。新建日程的时间默认留空，只填开始时间会提醒一次，填写结束时间则占用时间段。": [
+    "Choose any date. Tasks can use any start and end time instead of class periods. Set one or more time ranges in the task form or details, or drag tasks from the sidebar. Each task stays as one sidebar item; scheduled segments are numbered ①②③ in chronological order. Dragging moves only the selected segment. Edit time segments to add or remove segments and change their dates and times. Not today removes all segments of that task on the chosen day. Classes still block conflicts; timetable mode changes only the axis. New events have blank time fields. A start time without an end time triggers a single reminder; adding an end time reserves time.",
+    "任意の日付を選び、授業の時限に合わせず開始・終了時刻を自由に設定できます。タスクの入力画面や詳細で時間帯を追加するか、一覧からドラッグしてください。一覧は一項目のまま、日程の各区間に時間順で①②③を付けます。ドラッグした区間だけが移動します。「区間を変更」で追加・削除や日時の変更ができ、「今日は外す」はその日の全区間を戻します。授業との重複は確認し、時間割モードは目盛りだけを変えます。新しい予定の時刻は空欄です。開始のみなら一度だけ通知し、終了も入力すると時間を確保します。"
+  ],
+  "默认预览06:00–24:00，可在设置中修改范围。任务可自由设置日期与起止时间，或从任务栏拖入空闲处。一个任务可分成多段，日程标题后显示①②③；拖动一段只调整这一段。任务栏中仍只显示一项。": [
+    "The default view covers 06:00–24:00, adjustable in settings. Set any date and time range for a task or drag it into free time. A task may have several segments, numbered ①②③. Dragging changes only the selected segment; the sidebar still shows one task.",
+    "初期表示は06:00〜24:00で、設定から変更できます。タスクの日時を自由に設定するか、空き時間にドラッグしてください。複数の区間には①②③を付け、ドラッグした区間だけを変更します。一覧には一項目で表示します。"
+  ],
+  "同一任务可以自由分成多段，在任务详情里修改日期、起止时间或增删分段，日程按时间先后显示①②③。所有任务统一管理，不再区分学习或生活。新建日程的起止时间留空；只填写开始时间、不填写结束时间，即在该时间提醒一次，不占用时间段。填写结束时间则保存为时间段日程。": [
+    "Tasks may have multiple time ranges. Edit their dates and times, add or remove segments in task details, and see ①②③ in chronological order. All tasks share one list. New events have blank time fields. Enter only a start time for a single reminder without reserving time; add an end time for a time block.",
+    "タスクの詳細で時間帯を追加・削除し、日時を自由に変更できます。日程では時間順に①②③を付けます。すべてのタスクを一つの一覧で管理します。新しい予定の時刻は空欄です。開始のみなら一度だけ通知し、終了も入力すると時間枠を確保します。"
+  ],
+  "在日记编辑页右下角点击「记账」小按钮，选一笔记录并添加关联；在记账流水旁点击「关联日记」，选择日记日期。保存后两边都能点击跳转。解除关联不会删除原记录，加密日记仍需解锁后查看。": [
+    "Use the small Expenses button at the lower right of a diary entry to link an expense. From an expense, select Link diary and choose a date. Both sides can open the linked record. Removing a link keeps both original records; protected diaries still require unlocking.",
+    "日記の右下にある小さな「家計簿」ボタンから記録を関連付けます。家計簿からも「日記を関連付け」で日付を選べます。双方から開くことができ、関連付けを解除しても元の記録は残ります。保護された日記はロック解除が必要です。"
+  ],
+  "{0} 段": [
+    "{0} segments",
+    "{0}区間"
+  ],
+  "已安排 {0} 段 · 调整时间": [
+    "{0} segments scheduled · Edit times",
+    "{0}区間を配置済み · 時刻を変更"
+  ],
+  "通用": [
+    "General",
+    "一般"
+  ],
+  "阅读": [
+    "Reading",
+    "読書"
+  ],
+  "学习": [
+    "Study",
+    "学習"
+  ],
+  "语言": [
+    "Language",
+    "語学"
+  ],
+  "运动": [
+    "Exercise",
+    "運動"
+  ],
+  "散步": [
+    "Walking",
+    "散歩"
+  ],
+  "健身": [
+    "Fitness",
+    "筋トレ"
+  ],
+  "冥想": [
+    "Meditation",
+    "瞑想"
+  ],
+  "喝水": [
+    "Hydration",
+    "水分補給"
+  ],
+  "饮食": [
+    "Meals",
+    "食事"
+  ],
+  "早睡": [
+    "Early sleep",
+    "早寝"
+  ],
+  "早起": [
+    "Early rising",
+    "早起き"
+  ],
+  "健康": [
+    "Health",
+    "健康"
+  ],
+  "刷牙": [
+    "Brushing",
+    "歯磨き"
+  ],
+  "整理": [
+    "Tidying",
+    "片付け"
+  ],
+  "写作": [
+    "Writing",
+    "執筆"
+  ],
+  "音乐": [
+    "Music",
+    "音楽"
+  ],
+  "绘画": [
+    "Drawing",
+    "お絵描き"
+  ],
+  "编程": [
+    "Coding",
+    "プログラミング"
+  ],
+  "存钱": [
+    "Saving",
+    "貯金"
+  ],
+  "请选择一个有效的小图标": [
+    "Choose a valid icon",
+    "有効なアイコンを選んでください"
+  ],
+  "20 个常用打卡图标": [
+    "20 everyday habit icons",
+    "よく使う20種類の習慣アイコン"
+  ],
+  "图标未保存，请重试。": [
+    "The icon could not be saved. Please try again.",
+    "アイコンを保存できませんでした。もう一度お試しください。"
+  ],
+  "选择打卡图标": [
+    "Choose a habit icon",
+    "習慣のアイコンを選択"
+  ],
+  "选一个符合你习惯的小图标。": [
+    "Pick a small icon that fits your habit.",
+    "習慣に合う小さなアイコンを選びましょう。"
+  ],
+  "关闭图标选择": [
+    "Close icon picker",
+    "アイコン選択を閉じる"
+  ],
+  "20 个常用类型，点击即可选择": [
+    "20 everyday types. Click to choose.",
+    "よく使う20種類からクリックして選べます。"
+  ],
+  "更换“{0}”的图标": [
+    "Change icon for “{0}”",
+    "「{0}」のアイコンを変更"
+  ],
+  "习惯名称": [
+    "Habit name",
+    "習慣の名前"
+  ],
+  "收起习惯并保留打卡记录，可在下方已归档中恢复": [
+    "Hide this habit and keep its check-ins. Restore it under Archived below.",
+    "チェックイン履歴を残して収納します。下の「アーカイブ済み」から復元できます。"
+  ],
+  "删除习惯：{0}": [
+    "Delete habit: {0}",
+    "習慣を削除：{0}"
+  ],
+  "还没有进行中的习惯，可以新建，或从下方已归档中恢复。": [
+    "No active habits. Create one or restore one from Archived below.",
+    "進行中の習慣はありません。新しく作成するか、下のアーカイブから復元できます。"
+  ],
+  "选择新习惯图标": [
+    "Choose an icon for the new habit",
+    "新しい習慣のアイコンを選ぶ"
+  ],
+  "新习惯默认每天打卡。点击左侧图标可选择 20 个常用图标；已有习惯可在「管理」中更换。": [
+    "New habits repeat daily. Click the icon on the left to choose from 20 options; change existing icons under Manage.",
+    "新しい習慣は毎日が対象です。左のアイコンから20種類を選べます。既存の習慣は「管理」から変更できます。"
+  ],
+  "已归档": [
+    "Archived",
+    "アーカイブ済み"
+  ],
+  "归档会移出日常打卡列表和当前统计，原打卡记录仍保留。恢复后可继续打卡，并重新查看历史记录。": [
+    "Archiving removes a habit from the daily list and current statistics while keeping its check-in history. Restore it to resume check-ins and see its history again.",
+    "アーカイブすると日々の一覧と現在の集計から外れますが、履歴は残ります。復元するとチェックインを再開し、過去の履歴も確認できます。"
+  ],
+  "恢复到打卡": [
+    "Restore to habits",
+    "習慣に戻す"
+  ],
+  "暂无已归档习惯": [
+    "No archived habits",
+    "アーカイブ済みの習慣はありません"
+  ],
+  "新建习惯时点击名称左侧的小图标，可从20个常用类型中选择；已有习惯点击「我的习惯 → 管理」，再点击图标更换。完成后点「今日打卡」，月历会汇总完成情况。归档会收起暂时不做的习惯，退出日常列表和当前统计，打卡记录仍保留；在「我的习惯」下方展开「已归档」，点击「恢复到打卡」即可继续使用。每日名言可换一句或复制，断网仍可阅读内置名言。": [
+    "Choose from 20 everyday icons next to the name when creating a habit. For an existing habit, open My habits → Manage and click its icon. Check in from Today, and use the calendar for monthly progress. Archive habits you are pausing: they leave the daily list and current statistics, while their check-ins are kept. Expand Archived under My habits and click Restore to habits to bring them back. Daily quotes can be changed or copied, with built-in quotes available offline.",
+    "新しい習慣の名前の左から、20種類のアイコンを選べます。既存の習慣は「自分の習慣 → 管理」でアイコンをクリックします。「今日のチェックイン」で記録し、月間の進捗をカレンダーで確認できます。休む習慣はアーカイブすると一覧と現在の集計から外れますが履歴は残ります。「自分の習慣」の下の「アーカイブ済み」を開き、「習慣に戻す」で復元できます。毎日の名言は変更やコピーができ、オフラインでも内蔵の名言を読めます。"
+  ],
+  "选择截止日期": [
+    "Choose a due date",
+    "締切日を選択"
+  ],
+  "关闭日历": [
+    "Close calendar",
+    "カレンダーを閉じる"
+  ],
+  "选择月份": [
+    "Choose a month",
+    "月を選択"
+  ],
+  "一周后": [
+    "In one week",
+    "1週間後"
+  ],
+  "截止时刻": [
+    "Due time",
+    "締切時刻"
+  ],
+  "所有任务统一管理，可填写标题、详细内容、紧迫程度和截止时间。点击截止日期打开日历，可翻月或直接选择月份，支持今天、明天、一周后快捷选择；日期与具体时刻分别设置，全天任务按所选日期的23:59截止。在「预计安排」中可选填一个或多个时间段；不填时仅保存在任务栏。任务栏始终只显示一项，日程中的分段按时间先后编号。点击任务名称可查看、编辑详情和各段安排，右上角「⋯」可置顶、修改截止时间、调整分段或删除。排序按截止临近程度60%与紧迫程度40%计算，逾期加30分，置顶优先。": [
+    "All tasks share one list. Enter a title, details, urgency, and deadline. Click the due date to open a calendar, browse or jump to another month, or choose today, tomorrow or a week from now. Set the date and time separately; all-day tasks are due at 23:59 on the selected day. Optionally add one or more planned time ranges; otherwise the task stays unscheduled. Each task remains one list item, with numbered segments in the schedule. Click its name to edit details and time ranges. Use ⋯ to pin, edit, or delete. Priority weights deadline proximity at 60% and urgency at 40%, adds 30 for overdue tasks, and places pinned tasks first.",
+    "すべてのタスクをまとめて管理します。タイトル、詳細、緊急度、期限を入力できます。締切日をクリックしてカレンダーを開き、前後の月への移動や月の指定、今日・明日・1週間後の選択ができます。日付と時刻は別々に設定でき、終日のタスクは選択日の23:59が締切です。必要なら予定の時間帯を追加し、未設定なら一覧に保存します。一覧は一項目のまま、日程では各区間に番号を付けます。名前をクリックして詳細や時間帯を編集でき、⋯から固定・編集・削除できます。優先度は期限60％と緊急度40％、期限超過は30点を加算し、固定したタスクを先に表示します。"
+  ],
+  "选择时间": [
+    "Choose time",
+    "時刻を選択"
+  ],
+  "关闭时间选择": [
+    "Close time picker",
+    "時刻選択を閉じる"
+  ],
+  "小时": [
+    "Hours",
+    "時"
+  ],
+  "滚动或拖动选择": [
+    "Scroll or drag to select",
+    "スクロール・ドラッグで選択"
+  ],
+  "拨动音效": [
+    "Picker sound",
+    "操作音"
+  ],
+  "音效开": [
+    "Sound on",
+    "操作音オン"
+  ],
+  "音效关": [
+    "Sound off",
+    "操作音オフ"
+  ],
+  "清除时间": [
+    "Clear time",
+    "時刻をクリア"
+  ],
+  "今天和明天截止的任务": [
+    "Tasks due today and tomorrow",
+    "今日と明日が期限のタスク"
+  ],
+  "今天截止": [
+    "Due today",
+    "今日が期限"
+  ],
+  "明天截止": [
+    "Due tomorrow",
+    "明日が期限"
+  ],
+  "已截止": [
+    "Overdue",
+    "期限超過"
+  ],
+  "今天没有截止任务": [
+    "Nothing due today",
+    "今日が期限のタスクはありません"
+  ],
+  "明天没有截止任务": [
+    "Nothing due tomorrow",
+    "明日が期限のタスクはありません"
+  ],
+  "今天 {0} 项截止 · 明天 {1} 项截止": [
+    "Due today: {0} · Tomorrow: {1}",
+    "今日の期限 {0} 件 · 明日 {1} 件"
+  ],
+  "今天 {0} · 明天 {1}": [
+    "Today {0} · Tomorrow {1}",
+    "今日 {0} 件 · 明日 {1} 件"
+  ],
+  "接下来的日程": [
+    "Coming up",
+    "この後の予定"
+  ],
+  "滚轮时间与灵动岛": [
+    "Time wheels and Dynamic Island",
+    "時刻ホイールとDynamic Island"
+  ],
+  "点击时间打开滚轮，滚动鼠标、上下拖动或使用方向键调整小时与分钟，点击「确定」后生效。可用「音效开 / 音效关」控制轻微拨动声，选择会保留。新建日程的时间仍保持空白，取消选择不会自动填入时间。灵动岛收起时显示今天、明天截止的任务数量；悬停展开后可查看两组任务和具体时刻，点击任务查看详情。完成或删除任务后，提示会随之更新。": [
+    "Click a time to open the wheels. Scroll, drag vertically, or use the arrow keys to set hours and minutes, then confirm. Toggle Sound on / Sound off to control the quiet ticks; your preference is remembered. New calendar events still begin with empty times, and cancelling leaves them empty. The collapsed island summarizes tasks due today and tomorrow. Hover to see both groups and their due times, then click a task for details. Completing or deleting a task updates the list.",
+    "時刻をクリックしてホイールを開き、スクロール、上下のドラッグ、方向キーで時と分を調整し、「確定」で反映します。操作音オン／オフで小さなクリック音を切り替えられ、設定は保存されます。新しい予定の時刻は空欄のままで、キャンセルしても時刻は入りません。アイランドを閉じている間は今日と明日が期限のタスク件数を表示します。マウスを重ねると2つのグループと期限時刻が表示され、タスクをクリックすると詳細を確認できます。完了や削除は一覧に反映されます。"
+  ],
+  "今日": [
+    "Today",
+    "今日"
+  ],
+  "近三天": [
+    "Next 3 days",
+    "今後3日"
+  ],
+  "近一周": [
+    "Next week",
+    "今後1週間"
+  ],
+  "更远": [
+    "Later",
+    "それ以降"
+  ],
+  "今天截止及已逾期": [
+    "Due today and overdue",
+    "今日が期限・期限超過"
+  ],
+  "明天至三天后截止": [
+    "Due tomorrow through 3 days from today",
+    "明日から3日後が期限"
+  ],
+  "四至七天后截止": [
+    "Due in 4–7 days",
+    "4〜7日後が期限"
+  ],
+  "七天以后或未设置截止时间": [
+    "More than 7 days away or no deadline",
+    "8日後以降・期限なし"
+  ],
+  "今天没有待办，也没有逾期任务": [
+    "No tasks due today or overdue",
+    "今日が期限・期限超過のタスクはありません"
+  ],
+  "未来三天暂无截止任务": [
+    "Nothing due in the next 3 days",
+    "今後3日が期限のタスクはありません"
+  ],
+  "四至七天后暂无截止任务": [
+    "Nothing due in 4–7 days",
+    "4〜7日後が期限のタスクはありません"
+  ],
+  "暂无更远的任务": [
+    "No later tasks",
+    "それ以降のタスクはありません"
+  ],
+  "所有任务统一管理，可填写标题、详细内容、紧迫程度和截止时间。点击截止日期打开日历，可翻月或直接选择月份，支持今天、明天、一周后快捷选择；日期与具体时刻分别设置，全天任务按所选日期的23:59截止。在「预计安排」中可选填一个或多个时间段；不填时仅保存在任务栏。任务栏始终只显示一项，日程中的分段按时间先后编号。点击任务名称可查看、编辑详情和各段安排，右上角「⋯」可置顶、修改截止时间、调整分段或删除。排序按截止临近程度60%与紧迫程度40%计算，逾期加30分，置顶优先。任务页从上到下分为「今日、近三天、近一周、更远」：今日包含逾期，近三天指明天至三天后，近一周指四至七天后，更远包含七天以后和无截止任务。每项任务只出现一次，置顶在所属模块内优先，已完成记录在下方展开查看。": [
+    "All tasks share one list. Enter a title, details, urgency, and deadline. Click the due date to open a calendar, browse or jump to another month, or choose today, tomorrow or a week from now. Set the date and time separately; all-day tasks are due at 23:59 on the selected day. Optionally add one or more planned time ranges; otherwise the task stays unscheduled. Each task remains one list item, with numbered segments in the schedule. Click its name to edit details and time ranges. Use ⋯ to pin, edit, or delete. Priority weights deadline proximity at 60% and urgency at 40%, adds 30 for overdue tasks, and places pinned tasks first. The task page has four vertical groups: Today (including overdue), Next 3 days (tomorrow through 3 days from today), Next week (4–7 days from today), and Later (more than 7 days away or no deadline). Each task appears once. Pinned tasks come first within their group; expand Completed below to see finished tasks.",
+    "すべてのタスクをまとめて管理します。タイトル、詳細、緊急度、期限を入力できます。締切日をクリックしてカレンダーを開き、前後の月への移動や月の指定、今日・明日・1週間後の選択ができます。日付と時刻は別々に設定でき、終日のタスクは選択日の23:59が締切です。必要なら予定の時間帯を追加し、未設定なら一覧に保存します。一覧は一項目のまま、日程では各区間に番号を付けます。名前をクリックして詳細や時間帯を編集でき、⋯から固定・編集・削除できます。優先度は期限60％と緊急度40％、期限超過は30点を加算し、固定したタスクを先に表示します。 タスクは上から「今日・今後3日・今後1週間・それ以降」に分類されます。今日には期限超過、今後3日には明日から3日後、今後1週間には4〜7日後、それ以降には8日後以降と期限なしを含めます。各タスクは一度だけ表示され、固定したタスクは各グループの先頭に表示されます。完了した記録は下の「完了済み」を開いて確認できます。"
+  ],
+  "任务详情": [
+    "Task details",
+    "タスクの詳細"
+  ],
+  "无截止时间": [
+    "No deadline",
+    "期限なし"
+  ],
+  "还没有填写详细内容": [
+    "No details added yet",
+    "詳細はまだ入力されていません"
+  ],
+  "移开鼠标收起 · Esc 关闭": [
+    "Move away to collapse · Esc to close",
+    "マウスを離すと縮小 · Escで閉じる"
+  ],
+  "悬停查看任务": [
+    "Hover to preview tasks",
+    "ホバーしてタスクを確認"
+  ],
+  "鼠标在任务卡片上停留片刻，会以弹性动画展开任务名、截止时间和详细内容；等待时间跟随 Windows 的鼠标悬停设置。快速划过不会展开，移开鼠标或按 Esc 收起，拖动任务、点击完成或菜单不受影响。": [
+    "Hover over a task card to expand its title, deadline and details with a gentle spring animation. The delay follows your Windows mouse hover setting. Passing over quickly will not open it. Move away or press Esc to close; dragging, completion and menus continue to work normally.",
+    "タスクカードにマウスをしばらく置くと、弾むアニメーションで名前・期限・詳細が表示されます。待ち時間はWindowsのマウスホバー設定に従います。素早く通過しても開きません。マウスを離すかEscで閉じます。ドラッグ・完了・メニュー操作はそのまま使えます。"
+  ],
+  "启动提醒": [
+    "Startup reminder",
+    "起動時のお知らせ"
+  ],
+  "设置 → 通用 → 语言与导航，可选择简体中文、English 或日本語，调整导航顺序与启动页面。默认打开日程，所有待办统一保存在任务页。每次启动会弹出今天的课程和紧急任务提醒，几秒后自动收起，也可随时关闭或查看日程，无需确认，不影响其他操作。": [
+    "Settings → General → Language & navigation lets you choose Chinese, English or Japanese, reorder navigation and choose your start page. Schedule opens by default, and all tasks share one list. At startup, a reminder shows today’s classes and urgent tasks. It disappears after a few seconds; you can close it or view the schedule at any time. No acknowledgement is required, and other actions remain available.",
+    "設定 → 一般 → 言語とナビゲーションで、言語、メニューの順番、起動ページを変更できます。初期設定はスケジュールで、タスクは一つの一覧にまとめられます。起動時に今日の授業と緊急タスクを通知し、数秒後に自動で閉じます。いつでも閉じたりスケジュールを確認でき、受領の確認は不要です。他の操作もそのまま行えます。"
+  ],
+  "设置 → 通用可切换中文、英语和日语，调整导航顺序和启动页面。启动提醒会自动收起，可随时关闭，无需确认。日记与记账可添加双向关联，加密日记仍需解锁。": [
+    "Settings → General lets you choose Chinese, English or Japanese, reorder navigation and choose your start page. Startup reminders close automatically or can be dismissed at any time, with no acknowledgement required. Link diaries and expenses in either direction; protected diaries still require unlocking.",
+    "設定 → 一般で、言語、メニューの順番、起動ページを変更できます。起動時の通知は自動で閉じ、いつでも閉じられます。受領の確認は不要です。日記と家計簿を相互に関連付けられ、保護された日記は解除が必要です。"
+  ],
+  "鼠标在任务行上停留片刻，原行会保持宽度、向上下弹性展开，显示任务名、截止时间和详细内容，配色与任务的紧迫程度一致。等待时间跟随 Windows 的鼠标悬停设置；快速划过不会展开，移开鼠标或按 Esc 收起，拖动任务、点击完成或菜单不受影响。": [
+    "Rest the mouse on a task row to expand it vertically with a gentle spring animation, keeping its width and using the task’s urgency color. The preview shows the title, deadline and details. Its delay follows Windows hover settings. Passing over quickly does not expand it; move away or press Esc to collapse. Dragging, completion and menus keep working.",
+    "タスクの行にマウスを置くと、幅を保ったまま上下に弾むように広がり、タスクの緊急度に応じた色でタスク名・期限・詳細を表示します。待ち時間は Windows のホバー設定に従います。素早く通過すると開かず、マウスを離すか Esc で閉じます。ドラッグ、完了、メニュー操作はそのまま使えます。"
+  ],
+  "查看本机助手的连接状态。连接中断时可以尝试重连，最多等待一分钟；重连期间仍可使用其他页面。": [
+    "Check the local assistant connection. Reconnecting may take up to a minute; other pages remain available.",
+    "ローカルアシスタントの接続を確認します。再接続には最大1分かかります。その間も他のページを使用できます。"
+  ],
+  "如果仍未连接，请在本机助手的登录窗口确认登录，然后刷新状态。": [
+    "If it remains disconnected, confirm sign-in in the local assistant and refresh its status.",
+    "接続できない場合はローカルアシスタントでログインを確認し、状態を更新してください。"
+  ],
+  "任务保存后留在任务栏，不会自动占用时间。可在日程页选择日期并拖动任务安排，也可在任务详情里自由设置一个或多个时间段。「不在今日」会收回当天的安排，保留任务内容与截止时间。": [
+    "Saved tasks stay in the task panel. Pick a date and drag tasks onto the schedule, or set one or more time segments in task details. “Not today” removes today’s placements while keeping the task and deadline.",
+    "保存したタスクはタスク欄に残ります。日付を選んでドラッグするか、詳細で一つ以上の時間帯を設定できます。「今日はしない」で今日の予定だけを戻し、内容と期限を保持します。"
+  ],
+  "未配置本机助手": [
+    "Local assistant not configured",
+    "ローカルアシスタント未設定"
+  ],
+  "尚未配置本机助手。": [
+    "The local assistant is not configured.",
+    "ローカルアシスタントが設定されていません。"
+  ],
+  "本机助手未能启动，请检查是否已安装并完成连接配置。": [
+    "The local assistant could not start. Check its installation and connection setup.",
+    "ローカルアシスタントを起動できません。インストールと接続設定を確認してください。"
+  ],
+  "重连失败，请确认本机助手已登录后重试。": [
+    "Reconnection failed. Confirm the local assistant is signed in and try again.",
+    "再接続できませんでした。ローカルアシスタントのログインを確認して再試行してください。"
+  ],
+  "当前课表": [
+    "Current timetable",
+    "現在の時間割"
+  ],
+  "门课程": [
+    "courses",
+    "科目"
+  ],
+  "还没有课程，可以从下方导入。": [
+    "No courses yet. Import a timetable below.",
+    "授業はまだありません。下から時間割をインポートできます。"
+  ],
+  "删除课程与调课安排，保留节次时间、任务、日记、打卡和记账。删除前会自动备份。": [
+    "Remove courses and timetable changes. Class times, tasks, diaries, habits and expenses are kept. A backup is made first.",
+    "授業と振替設定を削除します。時限、タスク、日記、習慣、家計簿は保持され、削除前にバックアップされます。"
+  ],
+  "删除当前课表": [
+    "Delete current timetable",
+    "現在の時間割を削除"
+  ],
+  "删除当前课表？": [
+    "Delete the current timetable?",
+    "現在の時間割を削除しますか？"
+  ],
+  "当前课表已删除，删除前已自动备份。": [
+    "Timetable deleted. A backup was saved before deletion.",
+    "時間割を削除しました。削除前のバックアップを保存しました。"
+  ],
+  "将删除 {0} 门课程及其上课、调课安排。任务、日记等个人记录会保留。": [
+    "This removes {0} courses and their class and rescheduling entries. Your tasks, diaries and other personal records are kept.",
+    "{0} 科目とその授業・振替設定を削除します。タスクや日記などの個人記録は保持されます。"
+  ],
+  "正在删除…": [
+    "Deleting…",
+    "削除中…"
+  ],
+  "暂时无法读取当前课表，请稍后重试。": [
+    "Unable to load the current timetable. Please try again.",
+    "現在の時間割を読み込めません。もう一度お試しください。"
+  ],
+  "课表未能删除，请稍后重试。": [
+    "Unable to delete the timetable. Please try again.",
+    "時間割を削除できません。もう一度お試しください。"
+  ],
+  "备份未能完成，课表没有删除。请检查磁盘空间后重试。": [
+    "Backup failed. The timetable was kept. Check your disk space and try again.",
+    "バックアップに失敗しました。時間割は削除されていません。空き容量を確認してください。"
+  ],
+  "当前课表已变化，请重新打开后再删除": [
+    "The timetable changed. Reopen it before deleting.",
+    "時間割が変更されました。開き直してから削除してください。"
+  ],
+  "删除前会自动备份，可在「数据」中打开备份文件夹。": [
+    "A backup is saved first. Open the backup folder in Data management.",
+    "削除前に自動でバックアップします。「データ管理」からバックアップフォルダーを開けます。"
+  ]
+}

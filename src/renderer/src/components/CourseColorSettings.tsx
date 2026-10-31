@@ -1,0 +1,11 @@
+import * as React from 'react';
+import {useState} from 'react';
+import {COURSE_COLORS} from '@shared/courseColors';
+import {t} from '@shared/i18n';
+import {getApi} from '../lib/api';
+import {userError} from '../lib/userError';
+export function CourseColorSettings({courses}:{courses:Array<{id:string;name:string;color:string}>}){
+ const [busy,setBusy]=useState(false),[error,setError]=useState(''),[message,setMessage]=useState('');
+ const change=async(id:string|null,color:string|null)=>{if(busy)return;setBusy(true);setError('');setMessage('');try{await getApi().invoke(id?'courses:color':'courses:colorReset',id?{id,color}:{});setMessage(id?'课程颜色已更新':'已恢复不同课程的默认配色');}catch(e){setError(userError(e,'暂时无法修改课程颜色，请重试。'));}finally{setBusy(false);}};
+ return <details className="panel course-color-settings"><summary><span><strong>课程颜色</strong><small>不同课程，不同的淡彩</small></span><span className="course-color-summary-end"><span>{courses.length}</span><i aria-hidden="true">⌄</i></span></summary><div className="course-color-body"><p className="t-caption">展开后可逐门选择颜色，日程表、周视图与桌面组件会同步更新；重新导入同一门课时保留配色。</p>{courses.length?<><div className="course-color-list">{courses.map(course=><section className="course-color-item" key={course.id} data-course-id={course.id}><header><span className="course-color-current" style={{background:course.color}}/><strong>{course.name}</strong><button className="ghost-btn" disabled={busy} onClick={()=>void change(course.id,null)}>恢复默认</button></header><div className="course-color-swatches" role="group" aria-label={t('{0} 的课程颜色',[course.name])}>{COURSE_COLORS.map((color,index)=><button type="button" key={color} data-color={color} disabled={busy} className={course.color.toLowerCase()===color?'selected':''} style={{background:color}} aria-pressed={course.color.toLowerCase()===color} aria-label={t('为 {0} 选择淡彩 {1}',[course.name,index+1])} onClick={()=>void change(course.id,color)}>{course.color.toLowerCase()===color?'✓':''}</button>)}</div></section>)}</div><button className="ghost-btn course-color-reset" disabled={busy} onClick={()=>void change(null,null)}>恢复全部默认配色</button></>:<p className="t-caption">还没有课程，导入课表后可在这里调整颜色。</p>}{error&&<p className="editor-message error" role="alert">{error}</p>}{message&&<p className="editor-message" role="status">{message}</p>}</div></details>;
+}

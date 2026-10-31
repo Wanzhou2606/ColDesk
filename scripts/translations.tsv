@@ -1,0 +1,832 @@
+0	 · {0} overdue	 · 期限切れ {0}件
+1	 · includes overdue	 · 期限切れを含む
+2	 · Over budget; ease up a little	 · 予算超過。少し控えめに
+3	 · Within budget	 · 予算内です
+4	 reminders	件の通知
+5	/ day	/ 日
+6	1 hour	1時間
+7	In 10 minutes	10分後
+8	15 minutes	15分
+9	5 minutes	5分
+10	ColDesk icon	ColDeskのアイコン
+11	ColDesk reminder	ColDeskの通知
+12	TXT (Word when photos are included)	TXT（写真がある場合はWord）
+13	Word (with photos)	Word（写真を含む）
+14	Home · A garden for your thoughts	Home · 心の庭
+15	Home password settings	Homeのパスワード設定
+16	Home could not be opened. Please try again.	Homeを開けませんでした。再試行してください。
+17	{0} / {1} completed	{0} / {1} 完了
+18	Duration for {0}	{0}の予定時間
+19	Actions for {0}	{0}の操作
+20	{0} events · in time order	{0}件の予定 · 時間順
+21	{0} categories over target	目標超過 {0}項目
+22	{0}/{1} done	{0}/{1} 完了
+23	{0}{1}	{0}{1}
+24	{0}–{1} · Overview	{0}–{1} · 一覧
+25	{0} theme color	{0}のテーマカラー
+26	{0}: ¥{1}{2}	{0}：¥{1}{2}
+27	· Automatically scheduled after saving	· 保存後に自動で予定に追加
+28	· Total	· 合計
+29	· Make time for what matters	· 大切なことに時間を
+30	· Scheduling avoids classes and fixed events	· 授業と固定予定を避けて配置します
+31	· No.	· 第
+32	· Class	· 授業
+33	← Save and return to calendar	← 保存して月表示に戻る
+34	↻ Another quote	↻ 別の言葉
+35	☀️ Sunny	☀️ 晴れ
+36	☁️ Overcast	☁️ 曇り
+37	✨ Content	✨ 満足
+38	❄️ Snowy	❄️ 雪
+39	Mon	月
+40	A garden for your thoughts	自分の心を記録する庭
+41	MTWTFSS	月火水木金土日
+42	One line to remember a day	ひとことで、一日を残す
+43	Wed	水
+44	Previous period	前の期間
+45	Previous photo	前の写真
+46	Back	戻る
+47	Previous month	前の月
+48	Upload image	画像をアップロード
+49	Morning	午前
+50	Morning periods and departure reminder	午前の時限と予鈴
+51	Move {0} up	{0}を上へ
+52	Remind me 15 minutes before class	授業の15分前に通知
+53	Class date:	授業日：
+54	Next period	次の期間
+55	Next photo	次の写真
+56	Next	次へ
+57	Next month	次の月
+58	Afternoon	午後
+59	Afternoon periods and departure reminder	午後の時限と予鈴
+60	This day next week	来週の今日
+61	Move {0} down	{0}を下へ
+62	No link	関連付けなし
+63	Continue without a password	パスワードを設定しない
+64	No deadline	期限を設定しない
+65	In two weeks	2週間後
+66	The passwords do not match. Please check.	パスワードが一致しません。
+67	Both	両方
+68	 deadlines	件の期限
+69	 class events. Check names, weekdays, times, weeks and rooms against the original timetable.	件の授業予定。元の時間割で科目名・曜日・時刻・週・教室をご確認ください。
+70	Your records stay on this computer. Daily quotes use the internet, with built-in quotes available offline.	記録はこのPCに保存されます。今日の言葉はオンラインで取得し、オフラインでは内蔵の言葉を表示します。
+71	Personalization	個人設定
+72	 files	個のファイル
+73	 active	件が進行中
+74	Could not report window readiness	ウィンドウの準備状態を報告できませんでした
+75	Main app	メイン画面
+76	Choose separate colors for the main app and Home. Default keeps the original palette. Changes apply immediately and are saved.	メイン画面とHomeの色を個別に選べます。「既定」は元の配色です。変更はすぐに反映され、保存されます。
+77	Theme colors	テーマカラー
+78	You may also enter an installed font name. Unavailable fonts fall back to the default. Your choice is saved.	インストール済みのフォント名も入力できます。見つからない場合は既定のフォントを使います。設定は保存されます。
+79	Tue	火
+80	Fri	金
+81	Daily summary only	毎日のまとめのみ
+82	Today	今日
+83	Scheduled today	今日の配置済み時間
+84	No more events today. Take some time for yourself.	この後の予定はありません。自分の時間を楽しんで。
+85	No deadlines coming up today 🎉	今日は迫った期限がありません 🎉
+86	Nothing due today	今日が期限のタスクはありません
+87	No habits to check in today. You can review past records in the calendar.	今日のチェックインはありません。月表示で過去の記録を振り返れます。
+88	No habits scheduled today	今日の習慣はありません
+89	Today's events are finished	今日の予定は終了しました
+90	Today's schedule	今日の予定
+91	Classes are finished. Take some time for yourself.	今日の授業は終了しました。自分の時間を楽しんで。
+92	Today's breeze turns a fresh page for me.	今日の風が、新しいページをめくってくれる。
+93	Spent today	今日の支出
+94	{0} classes left today; the rest is yours	今日はあと{0}コマ。残りの時間は自由に
+95	A few words for yourself today…	今日の自分に残したいひとこと…
+96	Due soon today	今日の直近の期限
+97	Today's categories	今日のカテゴリ別
+98	Today's events	今日の予定
+99	Completed today {0}/{1}	今日の完了 {0}/{1}
+100	Due today	今日が期限
+101	Check in today	今日のチェックイン
+102	Nothing due today	今日の期限なし
+103	Today's overview	今日の概要
+104	Today's list	今日のリスト
+105	Today's balance ¥	今日の残額 ¥
+106	Today's classes	今日の授業
+107	Over budget today	今日の予算超過
+108	Today's progress	今日の進捗
+109	Start with one small thing	小さなことから始めよう
+110	Read dates, times, teachers and rooms from HDU Helper without typing classes manually.	杭電アシスタントから授業日・時刻・教員・教室を取得できます。手入力は不要です。
+111	Remove this attachment from the diary? The original file will stay unchanged.	日記からこの添付を削除しますか？元のファイルは変更されません。
+112	Want to watch the guide again?	ガイドをもう一度見るには？
+113	Tasks	タスク
+114	Tasks, expenses and habit records stay on this computer. A backup is made at launch, keeping the latest 14 copies.	タスク・支出・習慣の記録はこのPCに保存されます。起動時にバックアップし、最新14件を保持します。
+115	Task name	タスク名
+116	Task reminder	タスクの通知
+117	Task actions	タスクの操作
+118	Task actions: {0}	タスクの操作：{0}
+119	Task type	タスクの種類
+120	¥{0} remaining	残り ¥{0}
+121	Balance	残高
+122	Anonymous	作者不明
+123	Homework	課題
+124	Homework · Labs · Papers · Review	課題 · 実験 · 論文 · 復習
+125	Use 24-hour time, HH:mm, such as 07:30–22:30. The end time may be 24:00.	24時間形式のHH:mmで入力してください（例：07:30–22:30）。終了時刻は24:00も指定できます。
+126	Help	使い方
+127	For example, 2000	例：2000
+128	For example: Submit the data structures lab report	例：データ構造の実験レポートを提出
+129	For example: Yu Mincho	例：游明朝
+130	For example: Finish the weekend reading assignment	例：週末の読書課題を終える
+131	Save	保存
+132	Saving…	保存中…
+133	Save changes	変更を保存
+134	Automatically scheduled after saving	保存後に自動で予定に追加
+135	Could not save	保存できませんでした
+136	Could not save. Check that all times are complete.	保存できませんでした。時刻をすべて入力してください。
+137	Save and return to calendar	保存して月表示に戻る
+138	Save schedule hours	表示時間を保存
+139	Save settings	設定を保存
+140	Keep your thoughts private	自分の気持ちを大切に保管
+141	Changes also apply to the schedule and desktop widget.	変更は予定とデスクトップウィジェットにも反映されます。
+142	Change deadline	期限を変更
+143	Change urgency	緊急度を変更
+144	Health	健康
+145	Allow split sessions	分割を許可
+146	 yuan	元
+147	 per day. Set the total slightly above the category targets to receive useful overall warnings.	/日。合計予算を各カテゴリの目標の合計より少し多くすると、全体の警告に役立ちます。
+148	Focus on what needs you most	今必要なことから
+149	Getting started, instructions and about	初回ガイド・使い方・アプリ情報
+150	All day	終日
+151	Full-day overview · Drag tasks onto the schedule	一日を一覧 · タスクをドラッグして配置
+152	Queue silently during full-screen apps, then show a summary	全画面中は通知を保留し、終了後にまとめて通知
+153	Do not disturb in full screen	全画面中は通知しない
+154	All diaries	すべての日記
+155	All personal tasks	すべての生活タスク
+156	Sat	土
+157	Total	合計
+158	About ColDesk	ColDeskについて
+159	Links appear on both sides. Unlock protected diaries before viewing.	関連は両方に表示されます。保護された日記は解除後に開けます。
+160	Linked diaries	日記を関連付け
+161	Diary date to link	関連付ける日記の日付
+162	Links could not be loaded	関連を読み込めませんでした
+163	Link was not saved. Please try again.	関連を保存できませんでした。再試行してください。
+164	Linked expenses	支出を関連付け
+165	Close	閉じる
+166	ColDesk keeps running in the tray when the main window closes. Right-click the tray icon to open the app, show the widget or quit.	メイン画面を閉じてもトレイで動作します。トレイアイコンを右クリックすると、画面やウィジェットを開いたり終了したりできます。
+167	Close task editor	タスク編集を閉じる
+168	Keep tasks without scheduling time. Your preferences below will be retained.	タスクのみ保存し、時間を自動配置しません。以下の設定は保持されます。
+169	Close scheduling notice	配置のお知らせを閉じる
+170	Close navigation	ナビゲーションを閉じる
+171	Close guide	ガイドを閉じる
+172	Close new task	新規タスクを閉じる
+173	Close photo	写真を閉じる
+174	Other dates	他の日付
+175	Other everyday tasks	その他の生活タスク
+176	Build a habit	習慣を作る
+177	Changes save automatically, and finish saving before you return to the calendar.	内容は自動保存され、月表示に戻る前にも保存が完了します。
+178	Watch again: Settings → Help → Replay guide	もう一度見る：設定 → 使い方 → ガイドを再表示
+179	Enter again	もう一度入力
+180	Write one line to keep this day in your calendar.	ひとこと書いて、この日を月表示に残そう。
+181	Write about this day	この日を書く
+182	Write today	今日を書く
+183	Ready to begin	始める準備
+184	Reduce transparency for clearer text and borders	半透明を減らし、文字と境界を見やすくします
+185	Category name	カテゴリ名
+186	Category breakdown	カテゴリの内訳
+187	minutes	分
+188	Use this timetable	この時間割に切り替え
+189	The schedule will use this timetable. Tasks, diaries and habits stay. Check classes, rooms and weeks before confirming.	予定にはこの時間割を使います。タスク・日記・習慣は保持されます。科目・教室・週を確認してから確定してください。
+190	Create your own habits and check in after completing them each day.	自分の習慣を作り、毎日できたらチェックインしましょう。
+191	Delete these 15 sample entries (categories and budgets stay)	15件のサンプルを削除（カテゴリと予算は保持）
+192	Delete “	削除「
+193	Delete habit and its check-in history	習慣とチェックイン履歴を削除
+194	Delete task	タスクを削除
+195	Delete category (only when no entries remain)	カテゴリを削除（記録がある場合は削除不可）
+196	Delete this interval	この時間帯を削除
+197	Delete this entry	この記録を削除
+198	Delete this period	この時限を削除
+199	Go to	開く
+200	Review in schedule	予定で確認
+201	Add to schedule	予定に追加
+202	Loading…	読み込み中…
+203	Loading photos…	写真を読み込み中…
+204	Includes cover, weather, mood, text and photos. Diaries with photos use Word; other attachments go in an adjacent folder.	表紙・天気・気分・本文・写真を含みます。写真がある日記はWordにし、他の添付は隣のフォルダに保存します。
+205	Include class name and room	科目名と教室を含む
+206	Up to 10 MB each · 10 per import · 60 per day	1個10 MBまで · 1回10個 · 1日60個まで
+207	Up to 25 MB each · 20 per import · 60 per day	1個25 MBまで · 1回20個 · 1日60個まで
+208	Minimum session (minutes)	最短セッション（分）
+209	Maximum session (minutes)	最長セッション（分）
+210	Used only for calendar covers and the cover editor in Home.	Homeの月表示のひとことと表紙編集にのみ使用します。
+211	Starting soon	まもなく開始
+212	Time for class	授業の時間
+213	Reference line: total daily budget	基準線：1日の総予算
+214	Reference line: daily target for this category	基準線：このカテゴリの1日の目標
+215	Cancel	キャンセル
+216	Unpin	ピン留めを解除
+217	Cancel preview	プレビューを取り消す
+218	Two built-in rules: no tasks in the 30 minutes before bedtime; weekend availability counts at half capacity.	固定ルール：就寝前30分は配置せず、週末の利用可能時間は半分として計算します。
+219	Schedule only in these intervals. Saving updates the schedule while keeping locked events.	この時間帯にのみ配置します。保存すると予定を更新し、ロックした予定は保持します。
+220	Floating widget only	フローティングのみ
+221	Edge drawer only	端のドロワーのみ
+222	Expenses only · Saved on this computer	支出のみ · このPCに保存
+223	Add one now, or leave it blank and add it later.	今追加しても、空欄のまま後で追加してもかまいません。
+224	Set or change a password, or enter directly. Your diaries stay.	パスワードを設定・変更するか、そのまま入れます。日記は保持されます。
+225	Can be split	分割可能
+226	Category targets total	カテゴリ目標の合計
+227	All category targets are within budget	すべてのカテゴリが目標内です
+228	Create one Word overview	Wordの一覧を1冊にまとめる
+229	Name	名前
+230	Day after tomorrow	明後日
+231	Startup reminder · Please acknowledge	起動時のお知らせ · 受領を確認してください
+232	Open at startup	起動時に開く画面
+233	week	週
+234	Week view	週表示
+235	Week view and class timeline	週表示と時間割モード
+236	Class cards prioritize the title, then teacher and room when space permits. Click to expand times and period details; click outside or press Esc to close. Class mode shows start time, period number and end time in both schedule views, without hourly ticks. Classes and tasks remain visible. Generic subscriptions use time-interval numbers when period data is unavailable.	授業カードは科目名を優先し、余裕がある場合に教員と教室を表示します。クリックで時刻と時限を展開し、外側のクリックかEscで閉じます。時間割モードでは両方の予定表示に開始時刻・時限番号・終了時刻を表示し、毎時の目盛りは省きます。授業とタスクは保持されます。時限情報のない購読は時間帯の番号を使います。
+237	Thu	木
+238	Back to today	今日に戻る
+239	This month	今月に戻る
+240	Look back—you made progress today, too.	振り返れば、今日も前に進んでいる。
+241	Always on top	常に手前に表示
+242	Icon and separate colors for the main app and Home	アイコンとメイン画面・Homeの色
+243	Icon updated. Windows may take a moment to refresh its icon cache.	アイコンを変更しました。Windowsの表示更新に少し時間がかかる場合があります。
+244	Icon updated; some Windows shortcuts could not be refreshed yet.	アイコンを変更しました。一部のWindowsショートカットはまだ更新できていません。
+245	App icon	アイコン設定
+246	Image → AI recognition → Review and import	画像 → AI認識 → 確認して取り込み
+247	In Home, open the bottom-left menu, then Settings. Help also contains instructions for every feature.	Homeでは左下のメニューを開き、設定へ進みます。「使い方」で各機能の説明も確認できます。
+248	Choose Export diary in Home, then a day, month, all entries or a date range. Overview creates one Word document; Daily creates one per date, titled with the date and subtitle. Photos use Word and can also be exported separately. Unlock protected diaries first; exports are not encrypted.	Homeの「日記を書き出す」で日・月・全件・日付範囲を選択します。一覧はWord1冊、日別は日付と小見出しを題名にして日ごとに保存します。写真はWordに入り、原画像も個別に保存できます。保護された日記は先に解除してください。書き出した内容は暗号化されません。
+249	Add a task below to start planning today	下にタスクを追加して今日の予定を始めよう
+250	Where can I find the subscription link?	購読リンクはどこにありますか？
+251	Type a task and press Enter to save. Study and personal tasks have separate availability in scheduling settings.	タスクを入力してEnterで保存します。学習と生活の利用可能時間は配置設定で個別に設定できます。
+252	Paste the complete JSON here; json code fences are accepted	JSON全体を貼り付けてください。jsonコードブロックも使えます
+253	Location not provided	場所の情報なし
+254	Break between sessions (minutes)	セッション間の休憩（分）
+255	Keep up your habits	習慣を続けよう
+256	Add a deadline and estimated duration. Use ⋯ to pin, delete, change urgency, deadline or name. Editing from the widget opens the main app.	期限と所要時間を入力します。⋯からピン留め・削除・緊急度・期限・名前を変更できます。ウィジェットからの編集はメイン画面を開きます。
+257	Note	メモ
+258	Note (optional)	メモ（任意）
+259	Review	復習
+260	Copy	コピー
+261	Copy and read subscription	コピーして購読を読み込む
+262	Copy recognition prompt	認識用プロンプトをコピー
+263	Appearance & desktop	外観とデスクトップ
+264	 days · daily average	日 · 1日平均
+265	 days · monthly completion	日 · 今月の達成率
+266	 days with events · completed	日分の予定 · 完了
+267	Weather	天気
+268	Fonts, calendar, contrast and widget	フォント・月表示・コントラスト・ウィジェット
+269	Fonts & calendar	フォントと月表示
+270	Study	学習
+271	Study tasks	学習タスク
+272	Daily study limit (minutes)	学習の1日上限（分）
+273	Study availability	学習の利用可能時間
+274	Done	完了
+275	Complete: {0}	完了：{0}
+276	Official subscription	公式購読
+277	Official timetable subscription link	公式時間割の購読リンク
+278	Lab	実験
+279	Password	パスワード
+280	Password settings	パスワード設定
+281	Import my timetable	自分の時間割を取り込む
+282	Import method	取り込み方法
+283	Import did not finish. Please try again.	取り込みが完了しませんでした。再試行してください。
+284	Import timetable	時間割を取り込む
+285	Exporting…	書き出し中…
+286	Exports are not encrypted. Keep them safe.	書き出した内容は暗号化されません。大切に保管してください。
+287	Export original photo	原画像を書き出す
+288	Export file	ファイルを書き出す
+289	Export diary	日記を書き出す
+290	Navigation order	ナビゲーションの順序
+291	Cover	ひとこと
+292	Not saved yet	未保存
+293	Expand widget	ウィジェットを展開
+294	Expand to view	展開して表示
+295	Saved	保存済み
+296	Saved. Schedule and reminders now use the new times.	保存しました。予定と通知を新しい時刻で組み直しました。
+297	Saved. The schedule now uses your new preferences.	保存しました。新しい設定で予定を組み直しました。
+298	Unpinned. Other windows can cover it; click to pin again.	最前面を解除しました。クリックで再び手前に固定します。
+299	Pinned on top (click to unpin)	最前面に固定（クリックで解除）
+300	Entered ¥{0}	入力済み ¥{0}
+301	Completed	完了済み
+302	Default icon restored.	既定のアイコンに戻しました。
+303	Scheduled	配置済み
+304	Added	追加済み
+305	Budget used	使用した予算
+306	Manual event removed; the task remains and may be rescheduled automatically.	手動の予定を削除しました。タスクは保持され、自動配置が有効な場合は再計算されます。
+307	Finished events	終了した予定
+308	Scheduled	配置済み
+309	Scheduled {0}h	配置済み {0}h
+310	Recorded	記録済み
+311	Overdue	期限切れ
+312	Locked	ロック済み
+313	 / 	年
+314	The app, windows, tray and existing ColDesk shortcuts use the new icon. Shared installers keep the default icon.	画面・トレイ・既存のColDeskショートカットに新しいアイコンを使用します。配布用インストーラーは既定のアイコンのままです。
+315	App font	アプリのフォント
+316	Enable	有効にする
+317	Get started	使い始める
+318	Start date	開始日
+319	Start time	開始時刻
+320	Launch at Windows login	Windowsログイン時に起動
+321	Start with Windows	Windowsと共に起動
+322	Startup and preferences	起動と基本設定
+323	Guide progress	ガイドの進行状況
+324	 photos ·	枚の写真 ·
+325	Category	分類
+326	Archive	アーカイブ
+327	Now	今
+328	Current	現在
+329	Current time	現在時刻
+330	Current month (	現在の月（
+331	Currently behind other windows; click to pin on top (also available in the tray).	他のウィンドウの後ろに表示中。クリックで最前面に戻せます（トレイからも変更可能）。
+332	Current app icon	現在のアイコン
+333	Keep your thoughts for yourself	気持ちを、自分のために
+334	Mood	気分
+335	Quick actions	クイック操作
+336	Keyboard shortcuts	ショートカットキー
+337	Shortcut 1	ショートカット1
+338	Shortcut 2	ショートカット2
+339	Shortcut 3	ショートカット3
+340	Quick add task	タスクをすばやく追加
+341	Quick add task; 	タスクをすばやく追加；
+342	Overview	一覧
+343	Overview · One Word document	一覧 · Word1冊にまとめる
+344	Mark as incomplete	未完了に戻す
+345	Restore full-day overview	一日の一覧に戻す
+346	Restore default icon	既定のアイコンに戻す
+347	Restore default navigation	ナビゲーションを初期化
+348	Restore default hours	既定の時間に戻す
+349	Hover for schedule; drag to move	ホバーで予定を表示、ドラッグで移動
+350	Widget appearance	ウィジェットの外観
+351	Widget layer	ウィジェットの表示位置
+352	Choose Replay guide to watch again. Instructions for individual features are also available below.	「ガイドを再表示」で再度見られます。下に各機能の説明もあります。
+353	Type a task above. Add a deadline and duration when you want to schedule it.	上にタスクを入力しましょう。時間を確保したいときは期限と所要時間も入力できます。
+354	Take your time. Leave the day's events and unspoken thoughts here.	ゆっくり書こう。今日の出来事も、言えなかった気持ちも、ここに。
+355	I will check carefully	内容を確認します
+356	My habits	自分の習慣
+357	My icon	自分のアイコン
+358	Deadline buffer (%)	期限前の余裕（%）
+359	Deadline	期限
+360	Deadline *	期限 *
+361	Deadline (optional)	期限（任意）
+362	Related course	関連科目
+363	Habits	習慣
+364	Open main window	メイン画面を開く
+365	Open backup folder	バックアップフォルダを開く
+366	Open official timetable	公式時間割を開く
+367	Open navigation	ナビゲーションを開く
+368	Open diary	日記を開く
+369	Open HDU Helper	杭電アシスタントを開く
+370	Open HDU Helper and sign in (DingTalk is optional). Open the timetable menu → Subscribe to timetable → Copy link, then paste it here.	杭電アシスタントにログイン（任意でDingTalkを使用）し、時間割の右上メニュー →「订阅课表」→ リンクをコピーしてここに貼り付けます。
+371	Open settings	設定を開く
+372	Open this day's diary	この日の日記を開く
+373	Bring study, personal tasks, expenses and habits together so each day feels clearer.	学習・生活・支出・習慣をひとつにまとめ、毎日のやることを見やすく。
+374	Tasks, spending and habits, together. Start with something small.	タスクも支出も習慣も、ひとつに。小さなことから始めよう。
+375	Take your thoughts with you	気持ちを持ち出す
+376	Make time for what matters; keep your thoughts in a diary.	大切なことに時間を、気持ちは日記に。
+377	Send your timetable image and this prompt to your preferred AI, then paste its output. Similar JSON formats are accepted; common weekday, number and week formats are normalized. Include the first teaching week and period times.	時間割の画像とプロンプトを普段のAIに送り、出力を貼り付けます。形式はおおよそ同じで大丈夫です。曜日・数字・週の表記を整理します。第1教学週の日付と各時限の時刻を含めてください。
+378	Keep track of shopping, exercise and little everyday tasks	買い物や運動、日々の用事をひとつずつ
+379	Collapse / expand	折りたたみ／展開
+380	Collapse widget	ウィジェットを折りたたむ
+381	Drag tasks here · Scroll after zooming in	タスクをドラッグ · 拡大後はスクロール可能
+382	Drag onto the schedule to the left	左の予定にドラッグして配置
+383	Drag onto the schedule using this duration	この所要時間で予定にドラッグ
+384	Drag to change this task's time	ドラッグでタスクの時刻を変更
+385	Drag the top to move the widget; use the arrow to collapse it. Adjust transparency and layer in Settings → Appearance & desktop. Choose Dynamic island to expand on hover, collapse on leave and animate reminders. Drag the top and release to save its position. The edge drawer opens at the screen edge.	上部のドラッグで移動し、矢印で折りたたみます。設定 → 外観とデスクトップで透明度と表示位置を変更できます。「ダイナミックアイランド」はホバーで展開し、離れると縮小、通知時には滑らかに開きます。移動位置は手を離すと保存します。端のドロワーは画面端で開きます。
+386	Drag the top bar to move; release to snap to the screen edge	上部のバーをドラッグして移動、離すと画面端に吸着
+387	Drag the top to move and release to save. In Settings → Appearance & desktop → Desktop mode, choose Dynamic island for hover expansion and animated reminders. Closing the main window leaves ColDesk in the tray; right-click the tray icon to quit.	上部をドラッグして移動し、離すと保存します。設定 → 外観とデスクトップ → デスクトップ形態でダイナミックアイランドを選べます。メイン画面を閉じてもトレイで動作し、右クリックで終了できます。
+388	Drag to schedule	ドラッグして配置
+389	Make it yours	自分に合わせて設定
+390	Adjust reminders and desktop display to your habits	使い方に合わせて通知とデスクトップ表示を調整
+391	Press Enter to submit	Enterで送信
+392	Manage homework and review by deadline · Today	期限順に課題と復習を管理 · 今日
+393	Moments collected by date	日付で集める思い出
+394	Scheduling preferences	配置の設定
+395	Scheduling notices	配置のお知らせ
+396	Up next	この後
+397	Enter one time for the departure reminder. It reminds you to leave for class without occupying a timetable period.	予鈴には時刻を1つ入力します。教室へ向かうための通知で、時間割の枠は占有しません。
+398	Reminders	通知
+399	Reminders · Class times · Scheduling · Data	通知 · 授業時間 · 配置 · データ
+400	Reminder:	通知：
+401	Higher contrast	コントラストを上げる
+402	Action failed	操作できませんでした
+403	PNG, JPG, WebP and more, up to 20 MB. Images are center-cropped to a square, preserving transparency, and copied to this computer.	PNG・JPG・WebPなど、最大20 MB。中央を正方形に切り抜き、透明部分を保ったままこのPCにコピーします。
+404	Got it	受け取りました
+405	Collapse	折りたたむ
+406	Collapse navigation	ナビゲーションを閉じる
+407	Hide prompt	プロンプトを閉じる
+408	Close management	管理を閉じる
+409	Close class details	授業の詳細を閉じる
+410	Edit	変更
+411	Rename	名前を変更
+412	Zoom in	拡大
+413	Zoom in schedule	予定を拡大
+414	Higher values make the background more opaque and text clearer; lower values reveal the desktop. Range: 45%–100%.	値が高いほど背景が濃く文字が見やすくなり、低いほどデスクトップが透けます。範囲：45%–100%。
+415	Data	データ
+416	Data & backups	データとバックアップ
+417	New habit name	新しい習慣の名前
+418	New habits repeat every day by default.	新しい習慣は既定で毎日繰り返します。
+419	New category name	新しいカテゴリ名
+420	New password (leave blank to keep current)	新しいパスワード（空欄で現在のものを保持）
+421	New task	新規タスク
+422	Older backups made without a password may still contain unencrypted content.	パスワード設定前の古いバックアップには、暗号化されていない内容が残る場合があります。
+423	No deadline	期限なし
+424	Could not export attachment	添付を書き出せませんでした
+425	Could not recognize timetable. Check the content.	時間割を認識できませんでした。内容をご確認ください。
+426	day	日
+427	Daily reminders	毎日の通知
+428	日本語	日本語
+429	Everyday supplies, textbooks, deliveries	日用品・教材・配送
+430	Schedule	予定
+431	Schedule start time	予定表示の開始時刻
+432	Schedule hours	予定の表示時間
+433	Display hours, timetable import and automatic scheduling	表示時間・時間割の取り込み・自動配置
+434	Schedule hours saved.	表示時間を保存しました。
+435	Schedule end time	予定表示の終了時刻
+436	Schedule zoom	予定の拡大率
+437	Timeline	タイムライン
+438	Class mode changes only the time axis: start time, period number and end time, without hourly ticks. Classes, tasks, zoom and display hours remain. It persists across views; scroll inside the axis to see all periods. Click again to restore ordinary ticks. Subscriptions without period data use interval numbers.	時間割モードは時間軸のみを変更し、開始時刻・時限番号・終了時刻を表示します。毎時の目盛りは省き、授業・タスク・拡大率・表示範囲は保持します。表示を切り替えても有効です。時間軸内をスクロールでき、再クリックで通常の目盛りに戻ります。時限情報のない購読は時間帯の番号を使います。
+439	Schedule view	予定の表示
+440	Switch between timeline, week and list views	タイムライン・週・リスト表示を切り替え
+441	Schedule shows 06:00–24:00 by default; change it in Settings → Courses & scheduling → Schedule hours. Use +/− to zoom and Overview to reset. The red line follows the current time. Drag tasks onto free time; existing events can also be moved. Dragging a task again moves its existing event without duplicates. Import classes using AI output or HDU Helper's timetable subscription link, review the preview and confirm. Import replaces the current timetable while keeping personal records. Links are not stored; paste again to refresh courses.	予定は既定で06:00–24:00を表示します。設定 → 授業と配置 → 表示時間で変更できます。＋／−で拡大し、一覧で戻ります。赤線は現在時刻に追従します。空き時間にタスクをドラッグし、配置済みの予定も移動できます。同じタスクを再度ドラッグしても重複しません。AI出力または杭電アシスタントの購読リンクから授業を取り込み、プレビューを確認して確定します。時間割のみを置き換え、個人の記録は保持します。リンクは保存せず、更新時は再度貼り付けます。
+442	Day / week view	日表示／週表示
+443	Daily · One file per day	日別 · 1日1ファイル
+444	Your original diaries remain in Home.	元の日記はHomeに残ります。
+445	Diary export layout	日記の書き出し方法
+446	Diary export format	日記の書き出し形式
+447	Diary export range	日記の書き出し範囲
+448	Text, photos and files are encrypted. Remember your password; encrypted diaries cannot be recovered without it.	本文・写真・ファイルを暗号化して保存します。パスワードを忘れると復元できないため、大切に保管してください。
+449	Interval numbers · No class-period data supplied	時間帯の番号 · 時限情報なし
+450	Time	時間
+451	Time · Period	時刻 · 時限
+452	Time conflict	時間が重なっています
+453	Tomorrow	明日
+454	Show / hide widget	ウィジェットの表示／非表示
+455	Show or hide the floating widget.	フローティングウィジェットを表示・非表示にします。
+456	Display mode	表示方法
+457	Evening	夜
+458	Evening periods and departure reminder	夜の時限と予鈴
+459	Normal	通常
+460	Normal (may be covered)	通常（他の画面の後ろに表示）
+461	No tasks	タスクなし
+462	Could not save this event. Please try again.	予定を保存できませんでした。再試行してください。
+463	Could not save display hours	表示時間を保存できませんでした
+464	Could not save settings. Please try again.	設定を保存できませんでした。再試行してください。
+465	Could not update task. Please try again.	タスクを更新できませんでした。再試行してください。
+466	Could not import. Please preview again.	取り込めませんでした。再度プレビューしてください。
+467	Could not export diaries. Please try again.	日記を書き出せませんでした。再試行してください。
+468	Could not export photo	写真を書き出せませんでした
+469	Could not load another quote	別の言葉を取得できませんでした
+470	Could not change icon. Please select an image again.	アイコンを変更できませんでした。画像を選び直してください。
+471	Could not remove event. Please try again.	予定を削除できませんでした。再試行してください。
+472	Could not read subscription. Check your connection and try again.	購読を読み込めませんでした。接続を確認して再試行してください。
+473	Could not read settings. Please try again.	設定を読み込めませんでした。再試行してください。
+474	Could not save. Your diary remains on this page. Retry before leaving.	保存できませんでした。日記はこの画面に残っています。再試行してから移動してください。
+475	Could not save. Please try again.	保存できませんでした。再試行してください。
+476	Could not save. Please retry; saved tasks will not be duplicated.	保存できませんでした。再試行しても保存済みタスクは重複しません。
+477	Could not save. Retry before leaving.	保存できませんでした。再試行してから移動してください。
+478	Could not save. Retry before returning to the calendar.	保存できませんでした。再試行してから月表示に戻ってください。
+479	Could not complete the action. Please try again.	処理できませんでした。再試行してください。
+480	Could not clear preview. Change pages, then read it again.	プレビューを消せませんでした。画面を切り替えて再度読み込んでください。
+481	Skip for now	今はスキップ
+482	More opaque	濃く
+483	Later	さらに先
+484	More transparent	透ける
+485	Recent entries	最近の記録
+486	month	月
+487	Calendar	月表示
+488	Calendar cover font	月表示のひとことのフォント
+489	Could not load calendar. Please try again.	月表示を読み込めませんでした。再試行してください。
+490	Monthly habit record	月ごとの習慣記録
+491	With	あり
+492	With 	あり 
+493	Tasks with deadlines and durations work best with automatic scheduling. You can find saved tasks in the task list.	期限と所要時間のあるタスクは自動配置に適しています。保存後はタスクリストで確認できます。
+494	Opening balance	月初の残高
+495	Not scheduled	未配置
+496	Next 7 days	今後7日間
+497	Next 7 days: total	今後7日間の合計
+498	Scheduled in the next 7 days	今後7日間の配置済み時間
+499	Unknown category	不明なカテゴリ
+500	No budget set	予算未設定
+501	This week	今週中
+502	Local storage and backups	ローカル保存とバックアップ
+503	This month	今月
+504	Available this month	今月の利用可能額
+505	This month's album	今月のアルバム
+506	Spending this period	この期間の支出
+507	Session length	今回の所要時間
+508	Other	その他
+509	 scheduling notices	件の配置のお知らせ
+510	 reminders queued	件の通知が待機中
+511	Import HDU timetable	杭電の時間割を取り込む
+512	HDU timetable import steps	杭電の時間割の取り込み手順
+513	HDU timetable imported	杭電の時間割を取り込みました
+514	HDU timetable subscription link	杭電の時間割の購読リンク
+515	Release to schedule	離して配置
+516	View {0} in day view	{0}を日表示で見る
+517	View full schedule →	すべての予定を見る →
+518	View all events and tasks	すべての予定とタスクを見る
+519	View today's schedule →	当日の予定を見る →
+520	Show prompt	プロンプトを表示
+521	View schedule	予定を見る
+522	View photo 	写真を見る 
+523	View reminder {0}	通知{0}を見る
+524	View class: {0}	授業を見る：{0}
+525	Mark complete	完了にする
+526	Title *	タイトル *
+527	Campus	キャンパス
+528	Validate and preview	検証してプレビュー
+529	Review and import	確認して取り込む
+530	Plan tasks using deadlines, estimated time and availability.	期限・所要時間・空き時間に基づいてタスクを配置します。
+531	Desktop mode	デスクトップ形態
+532	Desktop widget and shortcuts	デスクトップウィジェットと操作
+533	 times	回
+534	 class events	件の授業予定
+535	Welcome to ColDesk	ColDeskへようこそ
+536	Welcome back to Home	Homeへおかえりなさい
+537	Saving…	保存中…
+538	Saving event…	予定を保存中…
+539	Preparing…	準備中…
+540	Deleting…	削除中…
+541	Loading…	読み込み中…
+542	Loading schedule…	予定を読み込み中…
+543	Finding a quote…	言葉を探しています…
+544	Processing…	処理中…
+545	Importing…	取り込み中…
+546	Exporting…	書き出し中…
+547	Opening your garden…	心の庭を開いています…
+548	Updating…	変更中…
+549	Viewing	表示中
+550	Pasting…	貼り付け中…
+551	Unlocking…	解除中…
+552	Recording…	記録中…
+553	Reading…	読み込み中…
+554	Reading official timetable…	公式時間割を読み込み中…
+555	Loading calendar…	月表示を読み込み中…
+556	In progress	進行中
+557	Every day	毎日
+558	One TXT file per day	1日1つのTXTファイル
+559	One Word document per day	1日1つのWord文書
+560	Total daily budget	1日の総予算
+561	Daily check-in · Completion history	毎日のチェックイン · 達成記録
+562	Daily summary	毎日のまとめ
+563	Daily summary time	毎日のまとめの時刻
+564	Daily target	1日の目標
+565	Daily targets · Weekly and monthly budgets scale by day count	1日の目標 · 週と月の予算は日数で換算
+566	Daily spending	日ごとの支出
+567	Daily expenses · Weekly/monthly totals · Budget goals	日々の支出 · 週月の集計 · 予算目標
+568	Enter the amount available this month, such as your allowance. It becomes this month's budget; otherwise the daily total is scaled by the number of days.	月初に生活費など今月使える金額を入力すると、その額を月予算にします。未入力の場合は1日の総予算を日数で換算します。
+569	Summarize today's events, due tasks and overdue items	今日の予定・期限・期限切れをまとめる
+570	Summarize today's events and unfinished tasks.	今日の予定と未完了タスクをまとめます。
+571	Summary time, class reminders and quiet mode	まとめの時刻・授業通知・通知の抑制
+572	No overdue tasks	期限切れのタスクはありません
+573	Add	追加
+574	Add a daily habit and check in when done. The calendar summarizes progress; archive habits you pause. Copy or change the daily quote, with built-in quotes available offline.	毎日の習慣を追加し、できたらチェックインします。月表示で進捗を確認でき、休む習慣はアーカイブできます。今日の言葉は変更やコピーができ、オフラインでも読めます。
+575	Add and manage tasks	タスクの追加と管理
+576	Add tasks or import courses to see the next seven days here.	タスクを追加するか授業を取り込むと、今後7日間の予定がここに表示されます。
+577	Add a task, Enter to save…	タスクを入力、Enterで保存…
+578	Add link	関連を追加
+579	Add to existing timetable (same semester and period times)	既存の時間割に追加（同じ学期・時限）
+580	Once added, check in above.	追加すると上でチェックインできます。
+581	Add your first photo and turn your diary into an album.	最初の写真を追加して、日記をアルバムに。
+582	Add your first task	最初のタスクを追加
+583	List	リスト
+584	Fresh · Soft	さわやか · やさしい
+585	Clear sample data	サンプルデータを削除
+586	Clear	クリア
+587	Clear to use the daily budget scaled for this month	クリアすると1日の総予算を月の日数で換算します
+588	Dynamic island	ダイナミックアイランド
+589	Hover to expand, leave to collapse; reminders open with animation. Drag the top to move.	ホバーで展開、離れると縮小し、通知時はアニメーションで開きます。上部をドラッグして移動できます。
+590	Choose Manage to rename, archive or delete habits.	「管理」から名前の変更・アーカイブ・削除ができます。
+591	Choose New task and enter a name, deadline and duration. Use ⋯ to pin, delete, change urgency or deadline, rename and edit details. Pinned tasks appear first. Deleting also removes related events and reminders. Widget editing opens the main app.	「新規タスク」で名前・期限・所要時間を入力します。⋯からピン留め・削除・緊急度・期限・名前などを編集できます。ピン留めしたタスクは先頭に表示されます。削除すると関連予定と通知も消えます。ウィジェットでの編集はメイン画面を開きます。
+592	Choose New habit to add something you want to do every day.	「新しい習慣」で毎日続けたいことを追加しましょう。
+593	Choose a day and make room for your feelings.	一日を選んで、気持ちの居場所を。
+594	Click to complete	クリックで完了
+595	Get started saves your settings and this task together.	「使い始める」で設定とこのタスクを一緒に保存します。
+596	Click a date to view and plan that day	日付をクリックして当日の予定を表示・配置
+597	Click a class for details · Click a date for day view	授業で詳細 · 日付で日表示
+598	Photos & files	写真とファイル
+599	Photo could not be loaded	写真を読み込めませんでした
+600	Nothing scheduled now	今の予定はありません
+601	Glass opacity	ガラスの不透明度
+602	Create and choose save location	作成して保存場所を選択
+603	Life	生活
+604	Personal items	生活の用事
+605	Personal tasks	生活タスク
+606	Daily personal task limit (minutes)	生活タスクの1日上限（分）
+607	Personal tasks use these intervals separately from study tasks	この時間帯は学習タスクと別に生活タスクに使用します
+608	Personal task availability	生活タスクの利用可能時間
+609	Everyday inspiration	暮らしのひらめき
+610	Used in the main app, diary body and desktop widget.	メイン画面・日記本文・デスクトップウィジェットに使用します。
+611	Give ColDesk an icon from your favorite image.	好きな画像をColDeskのアイコンに。
+612	Make the most of the widget	ウィジェットを使いこなす
+613	Your choice	自分で決める
+614	Interface language	表示言語
+615	Leave some space, or add a new plan.	余白を楽しんでも、新しい予定を入れても。
+616	Keep today's pictures and the files that belong with them.	今日の風景と、この日にまつわるファイルを残そう。
+617	Launch ColDesk after Windows login.	WindowsにログインするとColDeskを起動します。
+618	Automatically launch ColDesk after Windows login	Windowsログイン時にColDeskを自動起動
+619	 scheduling preference	の配置傾向
+620	Budget targets	予算目標
+621	Enter directly and start writing freely.	そのまま入って、気軽に記録。
+622	Related events and reminders will also be removed.	関連する予定と通知も削除されます。
+623	Album	アルバム
+624	Confirm this HDU timetable	この杭電の時間割を使用
+625	Confirm deletion	削除を確認
+626	This replaces the current timetable. Tasks, diaries, expenses and habits stay. Check class dates, times and rooms first.	現在の時間割を置き換えます。タスク・日記・支出・習慣は保持されます。先に授業日・時刻・教室をご確認ください。
+627	Confirm import	取り込みを確定
+628	Social	交流
+629	Remove	削除
+630	Remove event: {0}	予定を削除：{0}
+631	Remove file 	ファイルを削除 
+632	Remove photo 	写真を削除 
+633	Remove this manual event (keep the task)	この手動予定を削除（タスクは保持）
+634	Later	後で
+635	Free	空き
+636	 entries	件
+637	No.	第
+638	Monday of week 1:	第1週の月曜日：
+639	Period {0}	{0}限
+640	Period {0} · {1}–{2}	{0}限 · {1}–{2}
+641	Your first visit	初めての方へ
+642	Your first task	最初のタスク
+643	简体中文	简体中文
+644	Manage	管理
+645	Type	種類
+646	Paste official subscription link	公式の購読リンクを貼り付け
+647	Paste copied subscription	コピーした購読を貼り付け
+648	Paste recognition result	認識結果を貼り付け
+649	Urgent	緊急
+650	Urgency	緊急度
+651	Urgency & reminders	緊急度と通知
+652	Urgency level	緊急度
+653	Urgency level *	緊急度 *
+654	About 	約 
+655	Detail view · {0}%	詳細表示 · {0}%
+656	Remaining	残額
+657	End date	終了日
+658	End time	終了時刻
+659	Results are for reference. Please check carefully.	結果は参考です。必ず内容をご確認ください。
+660	A few words for today	今日のひとこと
+661	A garden for your mind	心に小さな庭を
+662	Make a little time for something important.	大切なことに、少し時間を。
+663	Name this diary; it will be used as the export title	日記の名前を入力。書き出す際の題名になります
+664	Edit task	タスクを編集
+665	Edit task…	タスクを編集…
+666	Edit name	名前を編集
+667	Zoom out	縮小
+668	Zoom out schedule	予定を縮小
+669	Bills	支払い
+670	Behind windows	背面に表示
+671	Other windows can cover it. Change this from the tray menu.	他のウィンドウの後ろに表示します。トレイから変更できます。
+672	Pin	ピン留め
+673	Pin task	タスクをピン留め
+674	Teacher not provided	教員の情報なし
+675	Exam	試験
+676	Gatherings, clubs, family	集まり・サークル・家族への連絡
+677	Schedule tasks automatically	タスクを自動配置
+678	Automatic scheduling	自動配置
+679	Automatic scheduling toggle	自動配置の切り替え
+680	Custom font…	フォント名を入力…
+681	Habit tracker	習慣の記録
+682	Custom date range	日付範囲を指定
+683	to	～
+684	Keep at least one period	時限を1つ以上残してください
+685	 periods	コマ
+686	 periods ·	コマ ·
+687	 classes ·	コマの授業 ·
+688	Unlock to see your garden.	解除すると心の庭を開けます。
+689	Unlink	関連を解除
+690	This subscription has no period data. Counts are estimated using 45-minute periods; actual start/end times are retained.	時限情報がないため45分単位でコマ数を推定します。開始・終了時刻は元の時間割の通りです。
+691	Meet ColDesk	ColDeskを知る
+692	Add an expense	支出を記録
+693	Record an expense	支出を記録する
+694	Record	記録
+695	Add task	タスクを書く
+696	Record spending and view category totals and budgets.	支出を記録し、カテゴリの集計と予算を確認します。
+697	Record personal tasks	生活の用事を記録
+698	A garden for your thoughts	自分の心を記録する庭
+699	Track spending	支出を書く
+700	Expenses	家計簿
+701	Expenses & diaries	家計簿と日記
+702	Expenses & budgets	家計簿と予算
+703	Could not record expense	支出を記録できませんでした
+704	Paper	論文
+705	Settings	設定
+706	Settings → Personalization lets you upload an icon and choose separate default, blue, green, lavender or pink themes for the app and Home. Changes apply immediately and persist after restart.	設定 → 個人設定でアイコン画像と、メイン画面・Homeそれぞれの既定・水色・緑・薄紫・ピンクのテーマを選べます。変更は即時反映され、再起動後も保持されます。
+707	Use Settings → Personalization to change the icon and app/Home colors. Settings → Courses & scheduling → Schedule hours controls the visible range; events outside it stay in List view. Text grows slightly when you zoom in.	設定 → 個人設定でアイコンと画面・Homeの色を変更できます。設定 → 授業と配置 → 表示時間で予定の範囲を変更し、範囲外の予定はリストに表示します。拡大すると文字も少し大きくなります。
+708	Settings → Help → Replay guide	設定 → 使い方 → ガイドを再表示
+709	In Settings → Courses & scheduling, copy the prompt for your AI, paste its timetable JSON and review before importing. HDU users may open HDU Helper, sign in and copy Subscribe to timetable from the timetable menu. Paste and preview, then confirm. Import replaces the current timetable; repeat to refresh. Task scheduling avoids classes.	設定 → 授業と配置でプロンプトをコピーし、AIが出力した時間割JSONを貼り付けて確認後に取り込みます。杭電ユーザーは公式ページにログインし、時間割メニューの「订阅课表」リンクをコピーできます。貼り付けて確認・確定すると現在の時間割を置き換えます。更新時は再度読み込んでください。タスクは授業を避けて配置します。
+710	Once set up, start planning your everyday life.	設定が終わったら、毎日の予定を始めましょう。
+711	Set password	パスワードを設定
+712	Settings saved.	設定を保存しました。
+713	Choose the hours shown in day and week views. Events outside the range remain in List view. Automatic scheduling availability is configured separately below.	日表示と週表示の時間範囲を設定します。範囲外の予定はリストに残ります。自動配置の利用可能時間は下で個別に設定します。
+714	Phone, utilities, tuition	通信費・光熱費・学費
+715	Language & navigation	言語とナビゲーション
+716	Enter a task title first	先にタスク名を入力してください
+717	Copy the subscription link from the official page first	先に公式ページから購読リンクをコピーしてください
+718	Add a category first	先にカテゴリを追加してください
+719	Enter 1–1080 minutes	1～1080分で入力してください
+720	Check class dates, times and rooms against the official timetable. Imported classes use actual times, independent of manual period settings.	公式時間割で授業日・時刻・教室をご確認ください。取り込んだ授業は実際の時刻を使い、手動の時限設定には影響されません。
+721	Use a password of 6–128 characters.	パスワードは6～128文字で設定してください。
+722	Read and preview HDU timetable	杭電の時間割を読み込み・確認
+723	Courses	授業
+724	Courses & scheduling	授業と配置
+725	Class names use larger text. Teachers and rooms appear when space permits. Click to expand just that card with a spring animation, showing times, period count and known period details. Click outside or press Esc to close.	科目名を大きく表示し、余裕があれば教員と教室も表示します。クリックしたカードだけが弾むように展開し、時刻・コマ数・各時限の詳細を表示します。外側のクリックかEscで閉じます。
+726	Class times	授業時間
+727	Class-period axis · All events retained	時限の時間軸 · すべての予定を保持
+728	Timetable imported	時間割を取り込みました
+729	Class mode	時間割モード
+730	Timetable recognition prompt	時間割認識用プロンプト
+731	Reorder the left navigation. Changes are saved immediately.	左のナビゲーションの順序を変更します。すぐに保存・反映されます。
+732	¥{0} over	¥{0} 超過
+733	Over budget	予算超過
+734	The app opens Schedule by default, with Home first in navigation. Records stay on this computer, with no account required. Daily quotes may use the internet.	既定では予定を開き、Homeがナビゲーションの先頭です。記録はこのPCに保存され、登録は不要です。今日の言葉はインターネットを使う場合があります。
+735	Pause a moment, see your day	少し立ち止まり、今日を見る
+736	Enter your password to open your garden.	パスワードを入力して、自分の庭へ。
+737	Exercise, sleep, health checks	運動・生活リズム・健康診断
+738	Upcoming deadlines	直近の期限
+739	No upcoming deadlines	迫った期限はありません
+740	Remaining	残り
+741	Another	あと
+742	Not set; using the daily budget scaled for this month	未入力。1日の予算を月の日数で換算中
+743	No habits yet. Add one below.	まだ習慣がありません。下で追加しましょう。
+744	No habits yet. Add something to do every day.	まだ習慣がありません。毎日続けたいことを追加しましょう。
+745	This day is still unwritten	まだこの日を書いていません
+746	No personal tasks yet. Add one above.	まだ生活タスクがありません。上に入力して追加できます。
+747	No entries yet. Record an expense above.	まだ記録がありません。上で支出を記録しましょう。
+748	No events this week yet	今週の予定はまだありません
+749	No events this day	この日の予定はありません
+750	A subtitle for this day	この日の小見出し
+751	The story of this day	この日の物語
+752	Could not open this diary. Please try again.	この日の日記を開けませんでした。再試行してください。
+753	This day (	この日（
+754	No records in this period.	この期間の記録はありません。
+755	No periods yet. Choose Add period.	時限がありません。「時限を追加」で追加してください。
+756	No photos this month yet. Open a day's diary to add your first photo.	今月の写真はまだありません。日記を開いて最初の写真を追加しましょう。
+757	You kept your thoughts on {0} days this month.	今月は{0}日分の気持ちを残しました。
+758	You can change all these options later in Settings.	これらの設定は後から変更できます。
+759	Choose the intervals available for automatic task scheduling. Classes are avoided automatically, so you do not need to list them here.	自動配置に使える時間帯を指定します。授業は自動で避けるため、ここに入力する必要はありません。
+760	Write your diary, weather and mood here. Each calendar cover is a piece of your everyday life.	日記・天気・気分をここに。月表示のひとことは、自分だけの日常のかけらです。
+761	These times control timetable display, class departure reminders and busy periods for scheduling. Save to apply without restarting.	この時刻は時間割の表示・授業へ向かう通知・自動配置の占有時間に使います。保存ですぐに反映され、再起動は不要です。
+762	This task no longer exists. Close and select another.	このタスクはもう存在しません。閉じて選び直してください。
+763	Enter Home	Homeへ
+764	Settings → Appearance & desktop → Fonts & calendar lets you choose separate app and cover fonts, or enter an installed font name. Preview your choice; it stays after restart.	設定 → 外観とデスクトップ → フォントと月表示で、アプリとひとことのフォントを別々に選べます。インストール済みの名前も入力でき、プレビューと設定の保存に対応します。
+765	Active	進行中
+766	Streak	連続
+767	Choose a font that makes these records feel like you.	好きな文字で、記録をもっと自分らしく。
+768	Choose a category and amount to record an expense. View totals by day, week or month. Budgets are optional and can be adjusted to your needs.	カテゴリと金額を選んで支出を記録します。日・週・月で集計でき、予算は自分に合わせて任意で設定できます。
+769	Choose weather	天気を選択
+770	Choose mood	気分を選択
+771	Choose folder and export	フォルダを選んで書き出す
+772	Choose month	月を選択
+773	Select expense entry	支出記録を選択
+774	Usually scheduled in free study time	通常は授業のない自習時間に配置
+775	General	一般
+776	Some events are outside the visible range. View them in List.	表示範囲外にも予定があります。リストで確認してください。
+777	Shopping	買い物
+778	Shopping · Health · Social · Other	買い物 · 健康 · 交流 · その他
+779	Reload data	データを再読み込み
+780	Reschedule tasks	タスクを再配置
+781	Replay guide	ガイドを再表示
+782	Replan	組み直す
+783	Retry	再試行
+784	Retry export	書き出しを再試行
+785	Amount	金額
+786	Amount must be greater than 0	金額は0より大きい値にしてください
+787	The link is used only for this read and is not saved. Preview does not change your timetable. Paste it again to update changed classes.	リンクは今回の読み込みにのみ使い、保存しません。プレビューでは時間割は変更しません。授業の更新時は再度貼り付けてください。
+788	Lock	ロック
+789	Missed reminders	見逃した通知
+790	 courses ·	科目 ·
+791	 courses, 	科目、
+792	Attachment could not be saved. Please try again.	添付を保存できませんでした。再試行してください。
+793	Note a personal task, Enter to save…	生活の用事を入力、Enterで保存…
+794	Hide widget (Ctrl+Alt+D)	ウィジェットを隠す（Ctrl+Alt+D）
+795	Needs your attention	確認が必要です
+796	 items	件
+797	 due today	件が今日の期限
+798	 events	件の予定
+799	 due	件が期限
+800	 overdue	件が期限切れ
+801	Estimate	見積もり
+802	Estimated duration	所要時間
+803	Departure reminder	予鈴
+804	Budget	予算
+805	Budget basis:	予算の基準：
+806	Estimated time (minutes)	所要時間（分）
+807	On your first visit, choose whether to set a password. Open a calendar day to write a cover, weather, mood and diary. Add a subtitle, photos and files; Album browses photos by month and can export originals. Export a date range as one Word overview or a file per day. Photos use Word; attachments are included. Choose fonts in Appearance & desktop. The bottom-left menu opens navigation; diaries save before leaving.	初回にパスワードの有無を選びます。月表示の日を開き、ひとこと・天気・気分・日記を書きます。小見出し・写真・ファイルを追加でき、アルバムでは月ごとに閲覧・原画像の保存ができます。期間を選んでWordの一覧または日別のファイルに書き出せます。写真がある場合はWordになり、添付も保存します。外観とデスクトップでフォントを変更できます。左下メニューで移動し、離れる前に保存します。
+808	Choose whether to set a password on your first visit. Open a day to record a cover, weather, mood and diary, with photos and files. Switch to Album to browse this month's photos.	初回にパスワードの有無を選びます。日を開いてひとこと・天気・気分・本文を書き、写真やファイルを追加できます。アルバムで今月の写真を閲覧できます。
+809	Default 06:00–24:00	既定 06:00–24:00
+810	Default icon	既定のアイコン
+811	Default preview is 06:00–24:00. Change it in Settings → Courses & scheduling → Schedule hours. Zoom with +/−; reset with Overview. Set a duration and drag onto free time. Drag existing tasks to move them without duplicates. The red line follows the time; class conflicts prevent placement.	既定の表示は06:00–24:00です。設定 → 授業と配置 → 表示時間で変更できます。＋／−で拡大し、一覧で戻ります。所要時間を指定して空き時間にドラッグします。配置済みタスクも重複せず移動できます。赤線は現在時刻に追従し、授業と重なる場所には配置できません。
+812	🌤 Partly cloudy	🌤 晴れ時々曇り
+813	🌧 Low	🌧 落ち込み
+814	🌧 Rainy	🌧 雨
+815	🌿 Calm	🌿 穏やか
+816	🍃 Windy	🍃 風
+817	💭 Anxious	💭 不安
+818	😊 Happy	😊 嬉しい
+819	😴 Tired	😴 疲れ
+820	({0} items)	（{0}件）
+821	(reminder only; no class event)	（通知のみ・授業枠なし）
+822	(no events)	（予定なし）
+823	＋ Add interval	＋ 時間帯を追加
+824	＋ Add period	＋ 時限を追加
+825	＋ Add habit	＋ 習慣を追加
+826	＋ Add category	＋ カテゴリを追加
+827	＋ File	＋ ファイル
+828	＋ New habit	＋ 新しい習慣
+829	＋ New task	＋ 新規タスク
+830	＋ New personal task	＋ 新規生活タスク
+831	＋ Photo	＋ 写真

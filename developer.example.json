@@ -1,0 +1,5 @@
+{
+  "machine": "YOUR-DEV-PC",
+  "autoInstall": false,
+  "installDirectory": "C:\\ColDesk-Dev\\ColDesk"
+}

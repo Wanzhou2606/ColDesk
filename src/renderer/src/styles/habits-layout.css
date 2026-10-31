@@ -1,0 +1,48 @@
+/* 紧凑月历作为辅助信息，打卡与管理保留在主操作区。 */
+.app .habits-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(270px, 320px); gap: 18px; align-items: start; }
+.habits-main, .habits-aside { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.app .habits-page .panel { padding: 18px; gap: 13px; border-radius: 23px; }
+.habits-page .habit-today-list { max-height: clamp(120px, calc(100vh - 430px), 262px); overflow-y: auto; scrollbar-width: thin; padding: 2px; }
+.habits-page .habit-check { min-height: 45px; padding: 10px; gap: 9px; border-radius: 14px; }
+.habits-page .habit-check .t-body { font-size: 13px; white-space: normal; overflow-wrap: anywhere; }
+.habits-page .habit-check .t-caption { font-size: 10px; white-space: nowrap; }
+.habits-page .habit-check-box { width: 19px; height: 19px; border-radius: 6px; }
+.habits-page .habit-check-icon { font-size: 16px; }
+.habits-page .habit-manage-panel .habit-list { max-height: 224px; overflow-y: auto; scrollbar-width: thin; }
+.habits-page .habit-manage-toggle { padding: 5px 9px; font-size: 10px; min-height: 28px; }
+.habits-page .habit-row { gap: 8px; padding: 9px 10px; flex-wrap: wrap; }
+.habits-page .habit-row .grow { min-width: 70px; font-size: 12px; overflow-wrap: anywhere; }
+.habits-page .habit-row .t-caption { font-size: 10px; }
+.habits-page .habit-row .ghost-btn { padding: 5px 8px; font-size: 10px; }
+.habits-page .habit-row .icon-btn { width: 24px; height: 24px; color: var(--text-tertiary); border-radius: 8px; }
+.habits-page .habit-row .input { flex: 1; width: 120px; min-width: 100px; }
+.habits-page .habit-manage-panel .budget-total-row { padding-top: 8px; margin-top: 0; border-top: 1px solid var(--border); gap: 9px; flex-wrap: nowrap; }
+.habits-page .budget-total-row > input { flex: 1; width: 100%; min-width: 0; height: 36px; }
+.habits-page .budget-total-row > button { flex: 0 0 auto; height: 36px; font-size: 11px; padding: 6px 11px; }
+.habits-page .habit-manage-panel > .t-caption { font-size: 10px; line-height: 1.7; }
+.habits-page .habit-calendar-panel .panel-head { gap: 8px; }
+.habits-page .habit-calendar-panel .t-title { font-size: 14px; white-space: nowrap; }
+.habits-page .habit-calendar-panel .panel-head .row { gap: 4px; }
+.habits-page .habit-calendar-panel .ghost-btn { padding: 5px 8px; min-width: 26px; min-height: 28px; font-size: 11px; }
+.habits-page .month-summary { padding: 0; font-size: 10px; line-height: 1.7; }
+.habits-page .habit-calendar { gap: 5px; }
+.habits-page .habit-week-row { gap: 5px; }
+.habits-page .habit-week-head { padding: 0 0 4px; font-size: 10px; }
+.habits-page .habit-day { aspect-ratio: auto; height: 32px; border-radius: 8px; }
+.habits-page .habit-day-num { font-size: 11px; font-weight: 500; }
+.habits-page .habit-day.today { box-shadow: none; outline: 1.5px solid var(--accent); outline-offset: -1.5px; }
+.habits-page .grade-legend { gap: 7px 11px; padding: 2px 0 0; }
+.habits-page .grade-legend-item { gap: 4px; font-size: 9px; }
+.habits-page .grade-legend-item b { font-weight: 500; color: var(--text-tertiary); }
+.habits-page .grade-dot { width: 7px; height: 7px; border-radius: 2px; }
+.habits-page .quote-panel { text-align: left; }
+.habits-page .quote-text { font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
+.habits-page .quote-attribution { margin-top: 0; font-size: 10px; line-height: 1.7; }
+@media (max-width: 1050px) {
+  .app .habits-layout { grid-template-columns: minmax(0, 1fr) 270px; gap: 14px; }
+  .app .habits-page .panel { padding: 15px; }
+}
+@media (max-width: 800px) {
+  .app .habits-layout { grid-template-columns: minmax(0, 1fr); }
+  .habits-aside { max-width: 340px; width: 100%; }
+}

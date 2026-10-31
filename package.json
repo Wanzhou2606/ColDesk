@@ -1,0 +1,67 @@
+{
+  "name": "coldesk",
+  "version": "0.10.15",
+  "private": true,
+  "description": "ColDesk - 日程、任务、日记与习惯的 Windows 桌面应用",
+  "type": "module",
+  "main": "./out/main/index.cjs",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "node scripts/build-local.cjs",
+    "build:only": "electron-vite build",
+    "start": "electron .",
+    "ui-preview": "node --import tsx scripts/preview.mts",
+    "timetable-check": "node --import tsx scripts/timetable-check.mts",
+    "typecheck": "node scripts/typecheck.mjs",
+    "typecheck:ci": "tsc --noEmit -p tsconfig.node.json && tsc --noEmit -p tsconfig.web.json",
+    "test": "node --import tsx --test --test-isolation=none src/shared/__tests__/teachingPeriods.test.ts src/shared/__tests__/courseAxis.test.ts src/shared/__tests__/personalization.test.ts src/shared/__tests__/agenda.test.ts src/shared/__tests__/expense.test.ts src/shared/__tests__/habit.test.ts src/shared/__tests__/planner.test.ts src/shared/__tests__/plannerPrefs.test.ts src/shared/__tests__/reminders.test.ts src/shared/__tests__/scoring.test.ts src/shared/__tests__/timetable.test.ts src/main/__tests__/dataLayer.test.ts src/main/__tests__/store.test.ts src/main/__tests__/realTimetable.test.ts src/main/__tests__/bootstrap.test.ts src/main/__tests__/home.test.ts src/main/__tests__/timetableImport.test.ts src/main/__tests__/hduCalendar.test.ts src/renderer/__tests__/render.test.ts src/shared/__tests__/preferences.test.ts src/main/__tests__/recordLinks.test.ts src/main/__tests__/goals.test.ts src/main/__tests__/calendarPlanning.test.ts src/main/__tests__/calendarReminders.test.ts src/main/__tests__/taskSegments.test.ts src/main/__tests__/habitIcons.test.ts src/main/__tests__/interaction.test.ts src/main/__tests__/assistantTimetable.test.ts src/main/__tests__/externalChanges.test.ts src/main/__tests__/reminderRefresh.test.ts src/main/__tests__/assistant.test.ts scripts/__tests__/assistant-deployment.test.cjs src/main/__tests__/timetableMaintenance.test.ts",
+    "verify": "node scripts/verify.mjs",
+    "dist:win": "node scripts/build-installer.cjs",
+    "icons:generate": "electron scripts/generate-app-icon.cjs",
+    "audit:public": "node scripts/audit-public-source.cjs"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.5.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/browser": "^8.0.5",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/clipboard": "^8.0.1",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.4",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/share": "^8.0.3",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "docx": "9.6.1",
+    "electron": "^44.7.0",
+    "electron-builder": "26.15.3",
+    "electron-vite": "^2.3.0",
+    "fflate": "0.8.2",
+    "ical.js": "2.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  },
+  "license": "MIT",
+  "author": "Wanzhou2606",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wanzhou2606/ColDesk.git"
+  },
+  "homepage": "https://github.com/Wanzhou2606/ColDesk#readme",
+  "bugs": {
+    "url": "https://github.com/Wanzhou2606/ColDesk/issues"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@11.28.5"
+}

@@ -1,0 +1,31 @@
+/* A task row grows vertically in place; its theme is copied from the source. */
+.task-hover-card{box-sizing:border-box;container-type:inline-size;border:1px solid color-mix(in srgb,var(--course-color) 32%,var(--surface-raised));background:color-mix(in srgb,var(--course-color) 5%,var(--surface-raised));box-shadow:0 8px 28px #20334b21,0 1px 5px #20334b0d}
+.task-hover-card .course-detail-accent{height:3px;opacity:.65}
+.task-hover-card .course-detail-content{box-sizing:border-box;padding:15px 16px 11px;gap:8px;overflow:hidden}
+.task-hover-card .course-detail-content header{gap:9px}
+.task-hover-card .course-detail-content header span,.task-hover-card .task-detail-body h3{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.task-hover-card .course-detail-content h2{margin:0;font-size:14px;line-height:1.5;font-weight:600;max-height:4.5em;overflow:auto;scrollbar-width:thin}
+.task-hover-card .course-detail-content header>button{width:23px;height:23px;border-radius:8px;font-size:18px;background:transparent}
+.task-hover-deadline{display:flex;align-items:baseline;gap:8px;flex-shrink:0;color:var(--text-secondary);font-size:11px;line-height:1.6}
+.task-hover-deadline>span{flex-shrink:0}
+.task-hover-deadline strong{font-size:12px;font-weight:500;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;color:var(--text-secondary)}
+.task-hover-card .task-detail-body{min-height:32px}
+.task-hover-card .task-detail-body p{font-size:13px;line-height:1.7}
+.task-hover-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-shrink:0;padding-top:7px;border-top:1px solid color-mix(in srgb,var(--course-color) 14%,transparent)}
+.task-hover-actions>span{font-size:10px;color:var(--text-tertiary);line-height:1.6}
+.task-hover-actions>button{font:inherit;font-size:11px;white-space:nowrap;color:var(--text-primary);background:color-mix(in srgb,var(--course-color) 10%,var(--surface-raised));border:1px solid color-mix(in srgb,var(--course-color) 20%,transparent);border-radius:8px;padding:4px 9px;cursor:pointer}
+@container(max-width:280px){
+ .task-hover-card .course-detail-content{padding:13px 11px 10px;gap:7px}
+ .task-hover-card .course-detail-content h2{font-size:13px}
+ .task-hover-deadline{flex-direction:column;gap:1px}
+ .task-hover-actions>span{display:none}
+ .task-hover-actions{justify-content:flex-end}
+}
+@container(max-width:150px){
+ .task-hover-card .course-detail-content{padding:12px 8px 9px;gap:6px}
+ .task-hover-card .course-detail-content h2{font-size:12px}
+ .task-hover-card .course-detail-content header{gap:4px}
+ .task-hover-card .course-detail-content header>button{width:18px;height:20px;font-size:16px}
+ .task-hover-deadline strong,.task-hover-card .task-detail-body p{font-size:11px}
+ .task-hover-actions>button{font-size:10px;padding:3px 6px}
+}
